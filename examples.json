@@ -1,0 +1,170 @@
+[
+  {
+    "label": "Todos “nenhuma vez”: 0 (mínima)",
+    "input": {
+      "q1": "0",
+      "q2": "0",
+      "q3": "0",
+      "q4": "0",
+      "q5": "0",
+      "q6": "0",
+      "q7": "0",
+      "q8": "0",
+      "q9": "0"
+    },
+    "expected": {
+      "raw": {
+        "score": 0,
+        "item9": 0
+      },
+      "level": "low",
+      "verdict": "mínima"
+    },
+    "originalInput": {
+      "q1": "0",
+      "q2": "0",
+      "q3": "0",
+      "q4": "0",
+      "q5": "0",
+      "q6": "0",
+      "q7": "0",
+      "q8": "0",
+      "q9": "0"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Sono, cansaço e apetite em vários dias, anedonia na metade dos dias: 5 (leve)",
+    "input": {
+      "q1": "2",
+      "q2": "0",
+      "q3": "1",
+      "q4": "1",
+      "q5": "1",
+      "q6": "0",
+      "q7": "0",
+      "q8": "0",
+      "q9": "0"
+    },
+    "expected": {
+      "raw": {
+        "score": 5
+      },
+      "level": "mid",
+      "verdict": "leve"
+    },
+    "originalInput": {
+      "q1": "2",
+      "q2": "0",
+      "q3": "1",
+      "q4": "1",
+      "q5": "1",
+      "q6": "0",
+      "q7": "0",
+      "q8": "0",
+      "q9": "0"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Limite de rastreamento positivo: 10 (moderada)",
+    "input": {
+      "q1": "2",
+      "q2": "2",
+      "q3": "2",
+      "q4": "2",
+      "q5": "1",
+      "q6": "1",
+      "q7": "0",
+      "q8": "0",
+      "q9": "0"
+    },
+    "expected": {
+      "raw": {
+        "score": 10
+      },
+      "level": "mid",
+      "verdict": "moderada (rastreamento positivo"
+    },
+    "originalInput": {
+      "q1": "2",
+      "q2": "2",
+      "q3": "2",
+      "q4": "2",
+      "q5": "1",
+      "q6": "1",
+      "q7": "0",
+      "q8": "0",
+      "q9": "0"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Todos “quase todos os dias” exceto item 9 “nenhuma vez”: 24 (grave)",
+    "input": {
+      "q1": "3",
+      "q2": "3",
+      "q3": "3",
+      "q4": "3",
+      "q5": "3",
+      "q6": "3",
+      "q7": "3",
+      "q8": "3",
+      "q9": "0"
+    },
+    "expected": {
+      "raw": {
+        "score": 24,
+        "item9": 0
+      },
+      "level": "high",
+      "verdict": "grave"
+    },
+    "originalInput": {
+      "q1": "3",
+      "q2": "3",
+      "q3": "3",
+      "q4": "3",
+      "q5": "3",
+      "q6": "3",
+      "q7": "3",
+      "q8": "3",
+      "q9": "0"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Total 4, mas item 9 em vários dias: alerta de risco mesmo com soma baixa",
+    "input": {
+      "q1": "1",
+      "q2": "1",
+      "q3": "0",
+      "q4": "1",
+      "q5": "0",
+      "q6": "0",
+      "q7": "0",
+      "q8": "0",
+      "q9": "1"
+    },
+    "expected": {
+      "raw": {
+        "score": 4,
+        "item9": 1
+      },
+      "level": "high",
+      "verdict": "risco de suicídio"
+    },
+    "originalInput": {
+      "q1": "1",
+      "q2": "1",
+      "q3": "0",
+      "q4": "1",
+      "q5": "0",
+      "q6": "0",
+      "q7": "0",
+      "q8": "0",
+      "q9": "1"
+    },
+    "expandedZeroOptions": []
+  }
+]

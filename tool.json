@@ -1,0 +1,326 @@
+{
+  "tool": {
+    "id": "phq-9",
+    "title": "Questionário PHQ-9",
+    "short": "Rastreamento e gravidade da depressão",
+    "spec": [
+      "psiquiatria",
+      "medicina-de-familia-e-comunidade",
+      "clinica-medica"
+    ],
+    "tier": 1,
+    "desc": "PHQ-9 (Questionário sobre a Saúde do Paciente-9), versão brasileira: rastreamento e intensidade de sintomas depressivos, com alerta de risco no item 9.",
+    "lead": "Rastreia episódio depressivo e mede a intensidade dos sintomas nas últimas 2 semanas. É instrumento de rastreamento: não faz diagnóstico.",
+    "fields": [
+      [
+        "q1",
+        "Durante as últimas 2 semanas, com que frequência você foi incomodado(a) por…<br>1. Pouco interesse ou pouco prazer em fazer as coisas",
+        "radio",
+        {
+          "opts": {
+            "0": "Nenhuma vez",
+            "1": "Vários dias",
+            "2": "Mais da metade dos dias",
+            "3": "Quase todos os dias"
+          }
+        }
+      ],
+      [
+        "q2",
+        "2. Se sentir “para baixo”, deprimido(a) ou sem perspectiva",
+        "radio",
+        {
+          "opts": {
+            "0": "Nenhuma vez",
+            "1": "Vários dias",
+            "2": "Mais da metade dos dias",
+            "3": "Quase todos os dias"
+          }
+        }
+      ],
+      [
+        "q3",
+        "3. Dificuldade para pegar no sono ou permanecer dormindo, ou dormir mais do que de costume",
+        "radio",
+        {
+          "opts": {
+            "0": "Nenhuma vez",
+            "1": "Vários dias",
+            "2": "Mais da metade dos dias",
+            "3": "Quase todos os dias"
+          }
+        }
+      ],
+      [
+        "q4",
+        "4. Se sentir cansado(a) ou com pouca energia",
+        "radio",
+        {
+          "opts": {
+            "0": "Nenhuma vez",
+            "1": "Vários dias",
+            "2": "Mais da metade dos dias",
+            "3": "Quase todos os dias"
+          }
+        }
+      ],
+      [
+        "q5",
+        "5. Falta de apetite ou comendo demais",
+        "radio",
+        {
+          "opts": {
+            "0": "Nenhuma vez",
+            "1": "Vários dias",
+            "2": "Mais da metade dos dias",
+            "3": "Quase todos os dias"
+          }
+        }
+      ],
+      [
+        "q6",
+        "6. Se sentir mal consigo mesmo(a) — ou achar que você é um fracasso ou que decepcionou sua família ou você mesmo(a)",
+        "radio",
+        {
+          "opts": {
+            "0": "Nenhuma vez",
+            "1": "Vários dias",
+            "2": "Mais da metade dos dias",
+            "3": "Quase todos os dias"
+          }
+        }
+      ],
+      [
+        "q7",
+        "7. Dificuldade para se concentrar nas coisas, como ler o jornal ou ver televisão",
+        "radio",
+        {
+          "opts": {
+            "0": "Nenhuma vez",
+            "1": "Vários dias",
+            "2": "Mais da metade dos dias",
+            "3": "Quase todos os dias"
+          }
+        }
+      ],
+      [
+        "q8",
+        "8. Lentidão para se movimentar ou falar, a ponto das outras pessoas perceberem? Ou o oposto – estar tão agitado(a) ou irrequieto(a) que você fica andando de um lado para o outro muito mais do que de costume",
+        "radio",
+        {
+          "opts": {
+            "0": "Nenhuma vez",
+            "1": "Vários dias",
+            "2": "Mais da metade dos dias",
+            "3": "Quase todos os dias"
+          }
+        }
+      ],
+      [
+        "q9",
+        "9. Pensar em se ferir de alguma maneira ou que seria melhor estar morto(a)",
+        "radio",
+        {
+          "opts": {
+            "0": "Nenhuma vez",
+            "1": "Vários dias",
+            "2": "Mais da metade dos dias",
+            "3": "Quase todos os dias"
+          }
+        }
+      ]
+    ],
+    "formula": "<p>Cada item vale de 0 (nenhuma vez) a 3 (quase todos os dias). Total: 0 a 27.</p><p>Ponto de corte usual: <strong>≥ 10</strong> (sensibilidade e especificidade de 88% para depressão maior no estudo original). Na população geral brasileira (Santos 2013), o corte <strong>≥ 9</strong> teve sensibilidade de 77,5% e especificidade de 86,7%.</p><p>Qualquer resposta diferente de “nenhuma vez” no <strong>item 9</strong> exige avaliação do risco de suicídio, qualquer que seja o total.</p>",
+    "table": [
+      [
+        "Pontos",
+        "Intensidade dos sintomas",
+        "Conduta sugerida"
+      ],
+      [
+        "0 a 4",
+        "Mínima",
+        "Nenhuma"
+      ],
+      [
+        "5 a 9",
+        "Leve",
+        "Acompanhar; repetir o PHQ-9"
+      ],
+      [
+        "10 a 14",
+        "Moderada",
+        "Plano terapêutico: psicoterapia e/ou antidepressivo"
+      ],
+      [
+        "15 a 19",
+        "Moderadamente grave",
+        "Tratamento ativo"
+      ],
+      [
+        "20 a 27",
+        "Grave",
+        "Tratamento ativo; considerar encaminhamento ao psiquiatra"
+      ]
+    ],
+    "tips": [
+      "O PHQ-9 <strong>rastreia</strong>: resultado positivo pede entrevista clínica para confirmar episódio depressivo (DSM-5) e excluir transtorno bipolar, luto, uso de substâncias e causas orgânicas (hipotireoidismo, anemia).",
+      "Se houver pensamentos de morte ou de se ferir, avalie o risco no mesmo atendimento. Apoio emocional 24 h e gratuito: <strong>CVV 188</strong> (cvv.org.br); risco imediato: SAMU 192 ou pronto-socorro.",
+      "Repetir o PHQ-9 a cada 4 a 6 semanas mede resposta ao tratamento: queda de 50% é resposta; total &lt; 5, remissão.",
+      "Os dois primeiros itens formam o PHQ-2: se ambos forem “nenhuma vez”, a chance de depressão maior é baixa.",
+      "Na gestação e no puerpério, prefira a EPDS, que não pontua sintomas somáticos típicos desse período."
+    ],
+    "sources": [
+      [
+        "Kroenke K, Spitzer RL, Williams JB. The PHQ-9: validity of a brief depression severity measure. J Gen Intern Med, 2001.",
+        "https://doi.org/10.1046/j.1525-1497.2001.016009606.x"
+      ],
+      [
+        "Santos IS et al. Sensibilidade e especificidade do Patient Health Questionnaire-9 (PHQ-9) entre adultos da população geral. Cad Saúde Pública, 2013.",
+        "https://doi.org/10.1590/0102-311X00144612"
+      ]
+    ],
+    "cases": [
+      [
+        "Todos “nenhuma vez”: 0 (mínima)",
+        {
+          "q1": "0",
+          "q2": "0",
+          "q3": "0",
+          "q4": "0",
+          "q5": "0",
+          "q6": "0",
+          "q7": "0",
+          "q8": "0",
+          "q9": "0"
+        },
+        {
+          "raw": {
+            "score": 0,
+            "item9": 0
+          },
+          "level": "low",
+          "verdict": "mínima"
+        }
+      ],
+      [
+        "Sono, cansaço e apetite em vários dias, anedonia na metade dos dias: 5 (leve)",
+        {
+          "q1": "2",
+          "q2": "0",
+          "q3": "1",
+          "q4": "1",
+          "q5": "1",
+          "q6": "0",
+          "q7": "0",
+          "q8": "0",
+          "q9": "0"
+        },
+        {
+          "raw": {
+            "score": 5
+          },
+          "level": "mid",
+          "verdict": "leve"
+        }
+      ],
+      [
+        "Limite de rastreamento positivo: 10 (moderada)",
+        {
+          "q1": "2",
+          "q2": "2",
+          "q3": "2",
+          "q4": "2",
+          "q5": "1",
+          "q6": "1",
+          "q7": "0",
+          "q8": "0",
+          "q9": "0"
+        },
+        {
+          "raw": {
+            "score": 10
+          },
+          "level": "mid",
+          "verdict": "moderada (rastreamento positivo"
+        }
+      ],
+      [
+        "Todos “quase todos os dias” exceto item 9 “nenhuma vez”: 24 (grave)",
+        {
+          "q1": "3",
+          "q2": "3",
+          "q3": "3",
+          "q4": "3",
+          "q5": "3",
+          "q6": "3",
+          "q7": "3",
+          "q8": "3",
+          "q9": "0"
+        },
+        {
+          "raw": {
+            "score": 24,
+            "item9": 0
+          },
+          "level": "high",
+          "verdict": "grave"
+        }
+      ],
+      [
+        "Total 4, mas item 9 em vários dias: alerta de risco mesmo com soma baixa",
+        {
+          "q1": "1",
+          "q2": "1",
+          "q3": "0",
+          "q4": "1",
+          "q5": "0",
+          "q6": "0",
+          "q7": "0",
+          "q8": "0",
+          "q9": "1"
+        },
+        {
+          "raw": {
+            "score": 4,
+            "item9": 1
+          },
+          "level": "high",
+          "verdict": "risco de suicídio"
+        }
+      ]
+    ],
+    "batch": "neuro-mente",
+    "kind": "Calculadora",
+    "config": null,
+    "areaId": "neuro-mente",
+    "clinicalReview": "pending",
+    "sourceReview": "pending",
+    "sourceFile": "app/content/ferramentas/neuro-mente.php",
+    "arithmeticTest": {
+      "status": "passed",
+      "testedAt": "2026-09-25",
+      "total": 5,
+      "passed": 5,
+      "failures": []
+    },
+    "independentArithmeticTest": {
+      "status": "not-tested",
+      "testedAt": null,
+      "total": 0,
+      "passed": 0,
+      "cases": []
+    }
+  },
+  "review": {
+    "status": "needs-review",
+    "reason": "Revisão documental e clínica independente pendente.",
+    "clinicalValidation": "not-performed"
+  },
+  "sourceFile": {
+    "path": "app/content/ferramentas/neuro-mente.php",
+    "sha256": "3ce3a7987a3ec63938e5f21d8d24ec7f7f8880c1b54458ef7046807a89221cac",
+    "bytes": 102818
+  },
+  "clinicalValidation": "not-performed"
+}
