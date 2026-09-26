@@ -1,7 +1,7 @@
 {
   "name": "@elucenia/tool-phq-9",
   "version": "0.1.0",
-  "description": "Questionário PHQ-9 · Elucenia: reprodução técnica de fórmula ou escore clínico, sem dependências, para navegador e Node.js.",
+  "description": "Questionário PHQ-9 · ELUCENIA: reprodução técnica de fórmula ou escore clínico, sem dependências, para navegador e Node.js.",
   "keywords": [
     "elucenia",
     "medical-calculator",
