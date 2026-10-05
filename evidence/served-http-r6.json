@@ -1,0 +1,1189 @@
+{
+  "schema": "elucenia-native-tool-actual-r6-local-HTTP-subset-r5",
+  "id": "phq-9",
+  "sourceReceipt": {
+    "file": "reports/review-20261005-completion/deploy-lock/r6-all-calculators-http-results.json",
+    "bytes": 7105396,
+    "sha256": "c0b1e4dc320ce807e78c0444e629c1269b545b6e2ac87c265d896073d8c34ecb"
+  },
+  "servedBuildId": "jN-2wbRrarMjYPwdPnRHh",
+  "checker": {
+    "file": "reports/review-20261005-completion/deploy-lock/verify-r6-all-calculators-http.cjs",
+    "sha256": "92411a9e01fe36e1bf380c3336f2171bdb523a02ff09683da75927b12b33b3fa",
+    "bytes": 20735
+  },
+  "health": {
+    "url": "http://127.0.0.1:3067/api/health",
+    "startedAt": "2026-10-05T17:35:43.039Z",
+    "status": 200,
+    "headers": {
+      "contentType": "application/json",
+      "retryAfter": null,
+      "cacheControl": "no-store",
+      "nosniff": "nosniff"
+    },
+    "body": {
+      "status": "ok",
+      "application": "ELUCENIA",
+      "framework": "Next.js",
+      "version": "1.0.0"
+    },
+    "responseSha256": "65f95645e7826371eb2d9d3f96e0fed52ea4b88c77203f0cf2511769e57cd108",
+    "bytes": 80,
+    "elapsedMs": 27.345699999999994
+  },
+  "identity": {
+    "url": "http://127.0.0.1:3067/_next/data/jN-2wbRrarMjYPwdPnRHh/en/tools.json",
+    "startedAt": "2026-10-05T17:35:43.068Z",
+    "status": 200,
+    "headers": {
+      "contentType": "application/json; charset=utf-8",
+      "retryAfter": null,
+      "cacheControl": "s-maxage=31536000",
+      "nosniff": "nosniff"
+    },
+    "responseSha256": "404601e2c283a588a2f41af4feb5113d1993f76cc22f73a7b8ef4f5d17a82fa8",
+    "bytes": 103853,
+    "elapsedMs": 14.542600000000007,
+    "semanticMatchWithCompiledCatalog": true
+  },
+  "sourceCalculator": {
+    "file": "deliveries/elucenia-next-hostinger-r6/private/tool-code/phq-9/calculator.js",
+    "sha256": "64c134e5493b9a1e48d3b025078e9bb44890684a3031e3f06f239b64d4fba9d9",
+    "bytes": 7034
+  },
+  "sourceCalculatorMatchesCurrentCandidate": true,
+  "toolStatus": {
+    "cases": 5,
+    "replayed": 5,
+    "passed": 5,
+    "failed": 0,
+    "status": "passed"
+  },
+  "cases": [
+    {
+      "id": "phq-9",
+      "kind": "native-source-reference",
+      "index": 0,
+      "name": "Todos “nenhuma vez”: 0 (mínima)",
+      "originalInput": {
+        "q1": "0",
+        "q2": "0",
+        "q3": "0",
+        "q4": "0",
+        "q5": "0",
+        "q6": "0",
+        "q7": "0",
+        "q8": "0",
+        "q9": "0"
+      },
+      "input": {
+        "q1": "0",
+        "q2": "0",
+        "q3": "0",
+        "q4": "0",
+        "q5": "0",
+        "q6": "0",
+        "q7": "0",
+        "q8": "0",
+        "q9": "0"
+      },
+      "amendments": [],
+      "expected": {
+        "raw": {
+          "score": 0,
+          "item9": 0
+        },
+        "level": "low",
+        "verdict": "mínima"
+      },
+      "recordedResult": {
+        "main": [
+          "0",
+          "de 27"
+        ],
+        "label": "PHQ-9",
+        "raw": {
+          "score": 0,
+          "item9": 0
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/phq-9/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "q1": "0",
+            "q2": "0",
+            "q3": "0",
+            "q4": "0",
+            "q5": "0",
+            "q6": "0",
+            "q7": "0",
+            "q8": "0",
+            "q9": "0"
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/phq-9/calculate",
+          "startedAt": "2026-10-05T17:39:33.687Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "phq-9",
+              "main": [
+                "0",
+                "de 27"
+              ],
+              "label": "PHQ-9",
+              "raw": {
+                "score": 0,
+                "item9": 0
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "7248407c23d15883753b69f67504b3d14f81b675e17e2bc8b062782f614fe5cf",
+          "bytes": 127,
+          "elapsedMs": 5.743800000025658
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/phq-9/calculate",
+        "startedAt": "2026-10-05T17:39:33.687Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "phq-9",
+            "main": [
+              "0",
+              "de 27"
+            ],
+            "label": "PHQ-9",
+            "raw": {
+              "score": 0,
+              "item9": 0
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "7248407c23d15883753b69f67504b3d14f81b675e17e2bc8b062782f614fe5cf",
+        "bytes": 127,
+        "elapsedMs": 5.743800000025658
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.score",
+            "expected": 0,
+            "obtained": 0,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "result.raw.item9",
+            "expected": 0,
+            "obtained": 0,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.score",
+            "expected": 0,
+            "obtained": 0,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.item9",
+            "expected": 0,
+            "obtained": 0,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "0",
+            "obtained": "0",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "de 27",
+            "obtained": "de 27",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          },
+          {
+            "key": "verdict",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "phq-9",
+      "kind": "native-source-reference",
+      "index": 1,
+      "name": "Sono, cansaço e apetite em vários dias, anedonia na metade dos dias: 5 (leve)",
+      "originalInput": {
+        "q1": "2",
+        "q2": "0",
+        "q3": "1",
+        "q4": "1",
+        "q5": "1",
+        "q6": "0",
+        "q7": "0",
+        "q8": "0",
+        "q9": "0"
+      },
+      "input": {
+        "q1": "2",
+        "q2": "0",
+        "q3": "1",
+        "q4": "1",
+        "q5": "1",
+        "q6": "0",
+        "q7": "0",
+        "q8": "0",
+        "q9": "0"
+      },
+      "amendments": [],
+      "expected": {
+        "raw": {
+          "score": 5
+        },
+        "level": "mid",
+        "verdict": "leve"
+      },
+      "recordedResult": {
+        "main": [
+          "5",
+          "de 27"
+        ],
+        "label": "PHQ-9",
+        "raw": {
+          "score": 5,
+          "item9": 0
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/phq-9/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "q1": "2",
+            "q2": "0",
+            "q3": "1",
+            "q4": "1",
+            "q5": "1",
+            "q6": "0",
+            "q7": "0",
+            "q8": "0",
+            "q9": "0"
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/phq-9/calculate",
+          "startedAt": "2026-10-05T17:39:34.002Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "phq-9",
+              "main": [
+                "5",
+                "de 27"
+              ],
+              "label": "PHQ-9",
+              "raw": {
+                "score": 5,
+                "item9": 0
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "7469e48db122f9852cc43adeff0a01cf88b32de6f4a6d2f49eb00f429922f418",
+          "bytes": 127,
+          "elapsedMs": 3.934399999998277
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/phq-9/calculate",
+        "startedAt": "2026-10-05T17:39:34.002Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "phq-9",
+            "main": [
+              "5",
+              "de 27"
+            ],
+            "label": "PHQ-9",
+            "raw": {
+              "score": 5,
+              "item9": 0
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "7469e48db122f9852cc43adeff0a01cf88b32de6f4a6d2f49eb00f429922f418",
+        "bytes": 127,
+        "elapsedMs": 3.934399999998277
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.score",
+            "expected": 5,
+            "obtained": 5,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.score",
+            "expected": 5,
+            "obtained": 5,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.item9",
+            "expected": 0,
+            "obtained": 0,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "5",
+            "obtained": "5",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "de 27",
+            "obtained": "de 27",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          },
+          {
+            "key": "verdict",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "phq-9",
+      "kind": "native-source-reference",
+      "index": 2,
+      "name": "Limite de rastreamento positivo: 10 (moderada)",
+      "originalInput": {
+        "q1": "2",
+        "q2": "2",
+        "q3": "2",
+        "q4": "2",
+        "q5": "1",
+        "q6": "1",
+        "q7": "0",
+        "q8": "0",
+        "q9": "0"
+      },
+      "input": {
+        "q1": "2",
+        "q2": "2",
+        "q3": "2",
+        "q4": "2",
+        "q5": "1",
+        "q6": "1",
+        "q7": "0",
+        "q8": "0",
+        "q9": "0"
+      },
+      "amendments": [],
+      "expected": {
+        "raw": {
+          "score": 10
+        },
+        "level": "mid",
+        "verdict": "moderada (rastreamento positivo"
+      },
+      "recordedResult": {
+        "main": [
+          "10",
+          "de 27"
+        ],
+        "label": "PHQ-9",
+        "raw": {
+          "score": 10,
+          "item9": 0
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/phq-9/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "q1": "2",
+            "q2": "2",
+            "q3": "2",
+            "q4": "2",
+            "q5": "1",
+            "q6": "1",
+            "q7": "0",
+            "q8": "0",
+            "q9": "0"
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/phq-9/calculate",
+          "startedAt": "2026-10-05T17:39:34.314Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "phq-9",
+              "main": [
+                "10",
+                "de 27"
+              ],
+              "label": "PHQ-9",
+              "raw": {
+                "score": 10,
+                "item9": 0
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "781bc5be5ca3a3d2c1dda2ded91ab5e2a967095f1f0044aea4da180c2262a796",
+          "bytes": 129,
+          "elapsedMs": 5.893599999981234
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/phq-9/calculate",
+        "startedAt": "2026-10-05T17:39:34.314Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "phq-9",
+            "main": [
+              "10",
+              "de 27"
+            ],
+            "label": "PHQ-9",
+            "raw": {
+              "score": 10,
+              "item9": 0
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "781bc5be5ca3a3d2c1dda2ded91ab5e2a967095f1f0044aea4da180c2262a796",
+        "bytes": 129,
+        "elapsedMs": 5.893599999981234
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.score",
+            "expected": 10,
+            "obtained": 10,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.score",
+            "expected": 10,
+            "obtained": 10,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.item9",
+            "expected": 0,
+            "obtained": 0,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "10",
+            "obtained": "10",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "de 27",
+            "obtained": "de 27",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          },
+          {
+            "key": "verdict",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "phq-9",
+      "kind": "native-source-reference",
+      "index": 3,
+      "name": "Todos “quase todos os dias” exceto item 9 “nenhuma vez”: 24 (grave)",
+      "originalInput": {
+        "q1": "3",
+        "q2": "3",
+        "q3": "3",
+        "q4": "3",
+        "q5": "3",
+        "q6": "3",
+        "q7": "3",
+        "q8": "3",
+        "q9": "0"
+      },
+      "input": {
+        "q1": "3",
+        "q2": "3",
+        "q3": "3",
+        "q4": "3",
+        "q5": "3",
+        "q6": "3",
+        "q7": "3",
+        "q8": "3",
+        "q9": "0"
+      },
+      "amendments": [],
+      "expected": {
+        "raw": {
+          "score": 24,
+          "item9": 0
+        },
+        "level": "high",
+        "verdict": "grave"
+      },
+      "recordedResult": {
+        "main": [
+          "24",
+          "de 27"
+        ],
+        "label": "PHQ-9",
+        "raw": {
+          "score": 24,
+          "item9": 0
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/phq-9/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "q1": "3",
+            "q2": "3",
+            "q3": "3",
+            "q4": "3",
+            "q5": "3",
+            "q6": "3",
+            "q7": "3",
+            "q8": "3",
+            "q9": "0"
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/phq-9/calculate",
+          "startedAt": "2026-10-05T17:39:34.629Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "phq-9",
+              "main": [
+                "24",
+                "de 27"
+              ],
+              "label": "PHQ-9",
+              "raw": {
+                "score": 24,
+                "item9": 0
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "dfa3f3e7c852b7c2805a4315a2da053a7f4aa188c9b8ac9bf8da0a7d9666125e",
+          "bytes": 129,
+          "elapsedMs": 3.5648999999975786
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/phq-9/calculate",
+        "startedAt": "2026-10-05T17:39:34.629Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "phq-9",
+            "main": [
+              "24",
+              "de 27"
+            ],
+            "label": "PHQ-9",
+            "raw": {
+              "score": 24,
+              "item9": 0
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "dfa3f3e7c852b7c2805a4315a2da053a7f4aa188c9b8ac9bf8da0a7d9666125e",
+        "bytes": 129,
+        "elapsedMs": 3.5648999999975786
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.score",
+            "expected": 24,
+            "obtained": 24,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "result.raw.item9",
+            "expected": 0,
+            "obtained": 0,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.score",
+            "expected": 24,
+            "obtained": 24,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.item9",
+            "expected": 0,
+            "obtained": 0,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "24",
+            "obtained": "24",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "de 27",
+            "obtained": "de 27",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          },
+          {
+            "key": "verdict",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "phq-9",
+      "kind": "native-source-reference",
+      "index": 4,
+      "name": "Total 4, mas item 9 em vários dias: alerta de risco mesmo com soma baixa",
+      "originalInput": {
+        "q1": "1",
+        "q2": "1",
+        "q3": "0",
+        "q4": "1",
+        "q5": "0",
+        "q6": "0",
+        "q7": "0",
+        "q8": "0",
+        "q9": "1"
+      },
+      "input": {
+        "q1": "1",
+        "q2": "1",
+        "q3": "0",
+        "q4": "1",
+        "q5": "0",
+        "q6": "0",
+        "q7": "0",
+        "q8": "0",
+        "q9": "1"
+      },
+      "amendments": [],
+      "expected": {
+        "raw": {
+          "score": 4,
+          "item9": 1
+        },
+        "level": "high",
+        "verdict": "risco de suicídio"
+      },
+      "recordedResult": {
+        "main": [
+          "4",
+          "de 27"
+        ],
+        "label": "PHQ-9",
+        "raw": {
+          "score": 4,
+          "item9": 1
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/phq-9/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "q1": "1",
+            "q2": "1",
+            "q3": "0",
+            "q4": "1",
+            "q5": "0",
+            "q6": "0",
+            "q7": "0",
+            "q8": "0",
+            "q9": "1"
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/phq-9/calculate",
+          "startedAt": "2026-10-05T17:39:34.942Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "phq-9",
+              "main": [
+                "4",
+                "de 27"
+              ],
+              "label": "PHQ-9",
+              "raw": {
+                "score": 4,
+                "item9": 1
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "9fcd33a10e40e1357e11782f6d373c21119dd7236d321d52d8525f4b2518e105",
+          "bytes": 127,
+          "elapsedMs": 7.675599999987753
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/phq-9/calculate",
+        "startedAt": "2026-10-05T17:39:34.942Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "phq-9",
+            "main": [
+              "4",
+              "de 27"
+            ],
+            "label": "PHQ-9",
+            "raw": {
+              "score": 4,
+              "item9": 1
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "9fcd33a10e40e1357e11782f6d373c21119dd7236d321d52d8525f4b2518e105",
+        "bytes": 127,
+        "elapsedMs": 7.675599999987753
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.score",
+            "expected": 4,
+            "obtained": 4,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "result.raw.item9",
+            "expected": 1,
+            "obtained": 1,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.score",
+            "expected": 4,
+            "obtained": 4,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.item9",
+            "expected": 1,
+            "obtained": 1,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "4",
+            "obtained": "4",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "de 27",
+            "obtained": "de 27",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          },
+          {
+            "key": "verdict",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    }
+  ],
+  "scope": {
+    "syntheticDataOnly": true,
+    "applicationModuleImports": 0,
+    "browserInteractions": 0,
+    "newIndependentOracles": 0,
+    "nativeSourceReferenceCases": 882,
+    "additionalDecimalCases": 4,
+    "predictProstateHasSeparateFullCurveOracleReplay": true,
+    "clinicalApproval": false,
+    "professionalLanguageApproval": false,
+    "populationValidation": false,
+    "hostingerDeploymentVerified": false,
+    "actualHTTPExecution": true,
+    "standaloneNodeServer": true,
+    "nodeVersion": "v22.18.0",
+    "noNewClinicalOrProfessionalApproval": true,
+    "pubmedResourceIsNotCalculatorAndNotIncludedIn222": true,
+    "description": "All 882 existing reference cases across the 218 native calculators plus four existing Decimal50 examples, executed via HTTP against the final local r6 standalone build. Raw precise source-audit comparisons are transport regressions, not independent clinical or full-method validation."
+  },
+  "clinicalApproval": false,
+  "professionalLanguageApproval": false,
+  "newIndependentOracle": false,
+  "actualBrowserJourney": false,
+  "hostingerDeploymentVerified": false
+}
