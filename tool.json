@@ -3,14 +3,14 @@
     "id": "phq-9",
     "title": "Questionário PHQ-9",
     "short": "Rastreamento e gravidade da depressão",
+    "desc": "PHQ-9 (Questionário sobre a Saúde do Paciente-9), versão brasileira: rastreamento e intensidade de sintomas depressivos, com alerta de risco no item 9.",
+    "lead": "Rastreia episódio depressivo e mede a intensidade dos sintomas nas últimas 2 semanas. É instrumento de rastreamento: não faz diagnóstico.",
+    "kind": "Calculadora",
     "spec": [
       "psiquiatria",
       "medicina-de-familia-e-comunidade",
       "clinica-medica"
     ],
-    "tier": 1,
-    "desc": "PHQ-9 (Questionário sobre a Saúde do Paciente-9), versão brasileira: rastreamento e intensidade de sintomas depressivos, com alerta de risco no item 9.",
-    "lead": "Rastreia episódio depressivo e mede a intensidade dos sintomas nas últimas 2 semanas. É instrumento de rastreamento: não faz diagnóstico.",
     "fields": [
       [
         "q1",
@@ -131,45 +131,6 @@
       ]
     ],
     "formula": "<p>Cada item vale de 0 (nenhuma vez) a 3 (quase todos os dias). Total: 0 a 27.</p><p>Ponto de corte usual: <strong>≥ 10</strong> (sensibilidade e especificidade de 88% para depressão maior no estudo original). Na população geral brasileira (Santos 2013), o corte <strong>≥ 9</strong> teve sensibilidade de 77,5% e especificidade de 86,7%.</p><p>Qualquer resposta diferente de “nenhuma vez” no <strong>item 9</strong> exige avaliação do risco de suicídio, qualquer que seja o total.</p>",
-    "table": [
-      [
-        "Pontos",
-        "Intensidade dos sintomas",
-        "Conduta sugerida"
-      ],
-      [
-        "0 a 4",
-        "Mínima",
-        "Nenhuma"
-      ],
-      [
-        "5 a 9",
-        "Leve",
-        "Acompanhar; repetir o PHQ-9"
-      ],
-      [
-        "10 a 14",
-        "Moderada",
-        "Plano terapêutico: psicoterapia e/ou antidepressivo"
-      ],
-      [
-        "15 a 19",
-        "Moderadamente grave",
-        "Tratamento ativo"
-      ],
-      [
-        "20 a 27",
-        "Grave",
-        "Tratamento ativo; considerar encaminhamento ao psiquiatra"
-      ]
-    ],
-    "tips": [
-      "O PHQ-9 <strong>rastreia</strong>: resultado positivo pede entrevista clínica para confirmar episódio depressivo (DSM-5) e excluir transtorno bipolar, luto, uso de substâncias e causas orgânicas (hipotireoidismo, anemia).",
-      "Se houver pensamentos de morte ou de se ferir, avalie o risco no mesmo atendimento. Apoio emocional 24 h e gratuito: <strong>CVV 188</strong> (cvv.org.br); risco imediato: SAMU 192 ou pronto-socorro.",
-      "Repetir o PHQ-9 a cada 4 a 6 semanas mede resposta ao tratamento: queda de 50% é resposta; total &lt; 5, remissão.",
-      "Os dois primeiros itens formam o PHQ-2: se ambos forem “nenhuma vez”, a chance de depressão maior é baixa.",
-      "Na gestação e no puerpério, prefira a EPDS, que não pontua sintomas somáticos típicos desse período."
-    ],
     "sources": [
       [
         "Kroenke K, Spitzer RL, Williams JB. The PHQ-9: validity of a brief depression severity measure. J Gen Intern Med, 2001.",
@@ -290,9 +251,6 @@
         }
       ]
     ],
-    "kind": "Calculadora",
-    "config": null,
-    "clinicalReview": "pending",
     "arithmeticTest": {
       "status": "passed",
       "testedAt": "2026-09-25",
@@ -301,17 +259,328 @@
       "failures": []
     },
     "independentArithmeticTest": {
-      "status": "not-tested",
-      "testedAt": null,
-      "total": 0,
-      "passed": 0,
-      "cases": []
+      "status": "passed",
+      "testedAt": "2026-10-04T13:01:58.037Z",
+      "total": 56,
+      "passed": 56,
+      "evidencePath": "reports/review-20261003/four-score-sum-source-oracles-who2001-final23.json",
+      "evidenceSha256": "27a16a7e85f1496bd700ba029621b1d4ab1d570360cc82b9c67f7a27c572174d",
+      "peerEvidencePath": "reports/review-20261003/independent-four-score-sum-source-oracles-who2001-final23.json",
+      "peerEvidenceSha256": "7c8e3bb0f5743d8026242e8efcb8fc406645290d741779120b141654f613af39",
+      "scope": "Integer point sum only. Item wording, diagnosis, severity thresholds, population applicability, translations, release suitability and rights are not approved.",
+      "source": {
+        "keys": [
+          "q1",
+          "q2",
+          "q3",
+          "q4",
+          "q5",
+          "q6",
+          "q7",
+          "q8",
+          "q9"
+        ],
+        "options": [
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            0,
+            1,
+            2,
+            3
+          ]
+        ],
+        "max": 27,
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1495268/",
+        "edition": "Kroenke, Spitzer and Williams2001, DOI10.1046/j.1525-1497.2001.016009606.x",
+        "locator": "Methods: PHQ severity measure, nine items0–3 and total0–27",
+        "access": "Original primary Methods section read directly on2026-10-04."
+      },
+      "implementations": [
+        {
+          "app": "website",
+          "id": "phq-9",
+          "sha256": "64c134e5493b9a1e48d3b025078e9bb44890684a3031e3f06f239b64d4fba9d9"
+        },
+        {
+          "app": "dashboard",
+          "id": "phq-9",
+          "sha256": "64c134e5493b9a1e48d3b025078e9bb44890684a3031e3f06f239b64d4fba9d9"
+        },
+        {
+          "app": "command-center",
+          "id": "phq-9",
+          "sha256": "64c134e5493b9a1e48d3b025078e9bb44890684a3031e3f06f239b64d4fba9d9"
+        }
+      ],
+      "clinicalApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed",
+      "sourceRightsApproval": "not-performed",
+      "publicCandidateBankOmitted": true
+    },
+    "methodVersion": "PHQ 9/Kroenke 2001:9 itens 0–3, total 0–27; cutofforiginal 10 vs PTSantos 2013≥9; item 9 alarme",
+    "implementationVersion": "phq-9@native-2026-10-03+64c134e5493b",
+    "currentMethodSource": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1495268/",
+    "versionEvidence": {
+      "status": "variant-and-source-edition-recorded",
+      "checkedAt": "2026-10-03",
+      "implementedVariant": "Cada item vale de 0 (nenhuma vez) a 3 (quase todos os dias). Total: 0 a 27. Ponto de corte usual: ≥ 10 (sensibilidade e especificidade de 88% para depressão maior no estudo original). Na população geral brasileira (Santos 2013), o corte ≥ 9 teve sensibilidade de 77,5% e especificidade de 86,7%. Qualquer resposta diferente de “nenhuma vez” no item 9 exige avaliação do risco de suicídio, qualquer que seja o total.",
+      "inputContract": {
+        "fields": [
+          {
+            "key": "q1",
+            "label": "Durante as últimas 2 semanas, com que frequência você foi incomodado(a) por…<br>1. Pouco interesse ou pouco prazer em fazer as coisas",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Nenhuma vez",
+              "1": "Vários dias",
+              "2": "Mais da metade dos dias",
+              "3": "Quase todos os dias"
+            }
+          },
+          {
+            "key": "q2",
+            "label": "2. Se sentir “para baixo”, deprimido(a) ou sem perspectiva",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Nenhuma vez",
+              "1": "Vários dias",
+              "2": "Mais da metade dos dias",
+              "3": "Quase todos os dias"
+            }
+          },
+          {
+            "key": "q3",
+            "label": "3. Dificuldade para pegar no sono ou permanecer dormindo, ou dormir mais do que de costume",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Nenhuma vez",
+              "1": "Vários dias",
+              "2": "Mais da metade dos dias",
+              "3": "Quase todos os dias"
+            }
+          },
+          {
+            "key": "q4",
+            "label": "4. Se sentir cansado(a) ou com pouca energia",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Nenhuma vez",
+              "1": "Vários dias",
+              "2": "Mais da metade dos dias",
+              "3": "Quase todos os dias"
+            }
+          },
+          {
+            "key": "q5",
+            "label": "5. Falta de apetite ou comendo demais",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Nenhuma vez",
+              "1": "Vários dias",
+              "2": "Mais da metade dos dias",
+              "3": "Quase todos os dias"
+            }
+          },
+          {
+            "key": "q6",
+            "label": "6. Se sentir mal consigo mesmo(a) — ou achar que você é um fracasso ou que decepcionou sua família ou você mesmo(a)",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Nenhuma vez",
+              "1": "Vários dias",
+              "2": "Mais da metade dos dias",
+              "3": "Quase todos os dias"
+            }
+          },
+          {
+            "key": "q7",
+            "label": "7. Dificuldade para se concentrar nas coisas, como ler o jornal ou ver televisão",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Nenhuma vez",
+              "1": "Vários dias",
+              "2": "Mais da metade dos dias",
+              "3": "Quase todos os dias"
+            }
+          },
+          {
+            "key": "q8",
+            "label": "8. Lentidão para se movimentar ou falar, a ponto das outras pessoas perceberem? Ou o oposto – estar tão agitado(a) ou irrequieto(a) que você fica andando de um lado para o outro muito mais do que de costume",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Nenhuma vez",
+              "1": "Vários dias",
+              "2": "Mais da metade dos dias",
+              "3": "Quase todos os dias"
+            }
+          },
+          {
+            "key": "q9",
+            "label": "9. Pensar em se ferir de alguma maneira ou que seria melhor estar morto(a)",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Nenhuma vez",
+              "1": "Vários dias",
+              "2": "Mais da metade dos dias",
+              "3": "Quase todos os dias"
+            }
+          }
+        ],
+        "hash": "18fb8b19d71641e8443f14f6f359774ef66aee7049b5277299bfc25b3d2ed86f"
+      },
+      "sourceEditions": [
+        {
+          "citation": "Kroenke K, Spitzer RL, Williams JB. The PHQ-9: validity of a brief depression severity measure. J Gen Intern Med, 2001.",
+          "url": "https://doi.org/10.1046/j.1525-1497.2001.016009606.x",
+          "class": "primary-publication-abstract-or-metadata-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "The PHQ-9: validity of a brief depression severity measure.",
+            "year": "2001",
+            "firstPublicationDate": "2001-09-01",
+            "doi": "10.1046/j.1525-1497.2001.016009606.x",
+            "pmid": "11556941",
+            "pmcid": "PMC1495268",
+            "journal": "Journal of general internal medicine",
+            "authors": "Kroenke K, Spitzer RL, Williams JB."
+          },
+          "primaryPublicationUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1495268/",
+          "abstractAvailable": true,
+          "fullTextSha256": null,
+          "abstractSha256": "f0f32f80b5aefe54e2c4be5c2633a330e0c65a3b00708ad8fca3f276fe4e1302",
+          "matchedBy": "exact-DOI-or-PMID"
+        },
+        {
+          "citation": "Santos IS et al. Sensibilidade e especificidade do Patient Health Questionnaire-9 (PHQ-9) entre adultos da população geral. Cad Saúde Pública, 2013.",
+          "url": "https://doi.org/10.1590/0102-311X00144612",
+          "class": "primary-publication-abstract-or-metadata-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "[Sensitivity and specificity of the Patient Health Questionnaire-9 (PHQ-9) among adults from the general population].",
+            "year": "2013",
+            "firstPublicationDate": "2013-08-01",
+            "doi": "10.1590/0102-311x00144612",
+            "pmid": "24005919",
+            "journal": "Cadernos de saude publica",
+            "authors": "Santos IS, Tavares BF, Munhoz TN, Almeida LS, Silva NT, Tams BD, Patella AM, Matijasevich A."
+          },
+          "primaryPublicationUrl": "https://pubmed.ncbi.nlm.nih.gov/24005919/",
+          "abstractAvailable": true,
+          "fullTextSha256": null,
+          "abstractSha256": "0a98ff3514d7b49e5eca927c40c23c23a66f9b5fa79f46dc91f3e50796741f06",
+          "matchedBy": "exact-DOI-or-PMID"
+        }
+      ],
+      "publicationEditionConfirmed": true,
+      "fullFormulaConformanceReviewed": false,
+      "formulaConformance": "Not established by bibliographic identity or automatic full-text retrieval; retain independent arithmetic and clinical review as separate evidence.",
+      "independentArithmetic": {
+        "status": "passed",
+        "testedAt": "2026-10-04T13:01:58.037Z",
+        "total": 56,
+        "passed": 56,
+        "evidencePath": "reports/review-20261003/four-score-sum-source-oracles-who2001-final23.json",
+        "scope": "Integer point sum only. Item wording, diagnosis, severity thresholds, population applicability, translations, release suitability and rights are not approved.",
+        "caseEvidence": {
+          "schema": "independentArithmeticTest.cases",
+          "recordedEvidenceSha256": "2b7c5c1443dcde860df2c41e4b5d706cb742a1e18fe1dcf67c7d2885ffe74e65"
+        }
+      },
+      "clinicalApproval": "not-performed",
+      "translationApproval": "not-performed",
+      "releaseApproval": "not-performed",
+      "implementationHash": "64c134e5493b9a1e48d3b025078e9bb44890684a3031e3f06f239b64d4fba9d9"
+    },
+    "limits": "Rastreamento e intensidade de sintomas nas últimas duas semanas; não substitui entrevista diagnóstica. Distinga o corte original ≥10 do corte ≥9 estudado na população adulta de Pelotas. Os valores de sensibilidade e especificidade publicados não validam automaticamente outras populações ou traduções.",
+    "sourceLimitEvidence": {
+      "checkedAt": "2026-10-04T02:52:03.117Z",
+      "scope": "Targeted source reading and authorial documentation, not full method or clinical approval.",
+      "sourceReviewFile": "remaining-native-population-limits-review.json",
+      "sourceReviewSha256": "ba61a9b120a338c518c34ba9f324558b12580e7f5371ea81304b030b45ea44a5",
+      "readingOutcome": "review-outcome-recorded",
+      "unresolved": [
+        "Não houve entrevista diagnóstica nem validação dos novos idiomas.",
+        "O alerta de risco suicida local não foi conferido como protocolo integral na fonte lida."
+      ],
+      "fullMethodConformanceReviewed": false,
+      "clinicalApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed"
     }
   },
-  "review": {
-    "status": "needs-review",
-    "reason": "Revisão documental e clínica independente pendente.",
-    "clinicalValidation": "not-performed"
+  "currentSource": {
+    "file": "apps/website/private/tool-code/phq-9/calculator.js",
+    "bytes": 7034,
+    "sha256": "64c134e5493b9a1e48d3b025078e9bb44890684a3031e3f06f239b64d4fba9d9"
   },
-  "clinicalValidation": "not-performed"
+  "sourceToolSha256": "0d64a0c372a9109656af5ae0b97c73d391389de0ff31c36770fed764ba0a934a",
+  "omittedFullReferenceBanks": [
+    {
+      "rows": 56,
+      "sha256": "9d6d80ab4fdaa717e535e68e0c0978ecedcece3071b1fd0033c7a355972cc4ce",
+      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+    }
+  ],
+  "clinicalApproval": "not-performed",
+  "professionalLanguageApproval": "not-performed",
+  "sourceRightsApproval": "not-performed"
 }
