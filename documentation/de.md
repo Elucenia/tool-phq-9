@@ -138,3 +138,62 @@ Ergebnis der Formel oder Klassifikation. Interpretation, Vorgehen und Anwendbark
 Apache-2.0 gilt nur für den ELUCENIA-Code. Die Rechte an Instrumenten, Veröffentlichungen, Übersetzungen und Daten verbleiben bei den jeweiligen Rechteinhabern. Bewahren Sie LICENSE und NOTICE auf.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Dokumentierte Ergebnisse
+
+Die folgenden Angaben bewahren die Ausgaben der Methode für synthetische Beispiele. Sie stellen keine unabhängige klinische Validierung dar.
+
+### 1
+
+Depressive Symptome: minimale Ausprägung
+
+| Ergebnisdetails | |
+| --- | --- |
+| Item 9 (Gedanken an den Tod oder daran, sich zu verletzen) | Nie |
+
+Screening-Instrument: stellt keine Diagnose. Mit klinischem Interview bestätigen (DSM-5-Kriterien).
+
+
+### 2
+
+Depressive Symptome: leichte Ausprägung
+
+| Ergebnisdetails | |
+| --- | --- |
+| Item 9 (Gedanken an den Tod oder daran, sich zu verletzen) | Nie |
+
+Screening-Instrument: stellt keine Diagnose. Mit klinischem Interview bestätigen (DSM-5-Kriterien).
+
+
+### 3
+
+Depressive Symptome: mittelgradige Ausprägung (positives Screening: ≥ 10)
+
+| Ergebnisdetails | |
+| --- | --- |
+| Item 9 (Gedanken an den Tod oder daran, sich zu verletzen) | Nie |
+
+Screening-Instrument: stellt keine Diagnose. Mit klinischem Interview bestätigen (DSM-5-Kriterien).
+
+
+### 4
+
+Depressive Symptome: schwere Ausprägung (positives Screening: ≥ 10)
+
+| Ergebnisdetails | |
+| --- | --- |
+| Item 9 (Gedanken an den Tod oder daran, sich zu verletzen) | Nie |
+
+Screening-Instrument: stellt keine Diagnose. Mit klinischem Interview bestätigen (DSM-5-Kriterien).
+
+
+### 5
+
+Depressive Symptome: minimale Ausprägung. Item 9 positiv: Suizidrisiko jetzt beurteilen
+
+| Ergebnisdetails | |
+| --- | --- |
+| Item 9 (Gedanken an den Tod oder daran, sich zu verletzen) | An mehreren Tagen |
+
+Gedanken an den Tod oder daran, sich zu verletzen: fragen Sie direkt nach Suizidgedanken, Plan und Mitteln und lassen Sie die Person nicht allein, wenn ein unmittelbares Risiko besteht. Kostenlose emotionale Unterstützung rund um die Uhr: CVV 188 (oder cvv.org.br). Unmittelbares Risiko: SAMU 192 oder Notaufnahme.
+

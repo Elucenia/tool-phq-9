@@ -138,3 +138,62 @@ Risultato della formula o classificazione. Interpretazione, condotta e applicabi
 Apache-2.0 si applica solo al codice di ELUCENIA. I diritti su strumenti, pubblicazioni, traduzioni e dati restano ai rispettivi titolari. Conservi LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Risultati documentati
+
+Le informazioni seguenti conservano gli output del metodo per esempi sintetici. Non costituiscono una validazione clinica indipendente.
+
+### 1
+
+Sintomi depressivi: intensità minima
+
+| Dettagli del risultato | |
+| --- | --- |
+| Item 9 (pensieri di morte o di farsi del male) | Mai |
+
+Strumento di screening: non pone diagnosi. Confermare con intervista clinica (criteri del DSM-5).
+
+
+### 2
+
+Sintomi depressivi: intensità lieve
+
+| Dettagli del risultato | |
+| --- | --- |
+| Item 9 (pensieri di morte o di farsi del male) | Mai |
+
+Strumento di screening: non pone diagnosi. Confermare con intervista clinica (criteri del DSM-5).
+
+
+### 3
+
+Sintomi depressivi: intensità moderata (screening positivo: ≥ 10)
+
+| Dettagli del risultato | |
+| --- | --- |
+| Item 9 (pensieri di morte o di farsi del male) | Mai |
+
+Strumento di screening: non pone diagnosi. Confermare con intervista clinica (criteri del DSM-5).
+
+
+### 4
+
+Sintomi depressivi: intensità grave (screening positivo: ≥ 10)
+
+| Dettagli del risultato | |
+| --- | --- |
+| Item 9 (pensieri di morte o di farsi del male) | Mai |
+
+Strumento di screening: non pone diagnosi. Confermare con intervista clinica (criteri del DSM-5).
+
+
+### 5
+
+Sintomi depressivi: intensità minima. Item 9 positivo: valutare ora il rischio di suicidio
+
+| Dettagli del risultato | |
+| --- | --- |
+| Item 9 (pensieri di morte o di farsi del male) | Diversi giorni |
+
+Pensieri di morte o di farsi del male: chiedere direttamente di ideazione, piano e mezzi, e non lasciare la persona da sola se il rischio è imminente. Supporto emotivo gratuito 24 h: CVV 188 (o cvv.org.br). Rischio immediato: SAMU 192 o pronto soccorso.
+

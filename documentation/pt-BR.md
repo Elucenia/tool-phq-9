@@ -138,3 +138,62 @@ Resultado da fórmula ou classificação. Interpretação, conduta e aplicabilid
 Apache-2.0 aplica-se somente ao código da ELUCENIA. Os instrumentos, publicações, traduções e dados mantêm os direitos dos respectivos titulares. Preserve LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Resultados documentados
+
+As informações abaixo preservam as saídas do método para exemplos sintéticos. Não constituem validação clínica independente.
+
+### 1
+
+Sintomas depressivos: intensidade mínima
+
+| Detalhes do resultado | |
+| --- | --- |
+| Item 9 (pensamentos de morte ou de se ferir) | Nenhuma vez |
+
+Instrumento de rastreamento: não faz diagnóstico. Confirme com entrevista clínica (critérios do DSM-5).
+
+
+### 2
+
+Sintomas depressivos: intensidade leve
+
+| Detalhes do resultado | |
+| --- | --- |
+| Item 9 (pensamentos de morte ou de se ferir) | Nenhuma vez |
+
+Instrumento de rastreamento: não faz diagnóstico. Confirme com entrevista clínica (critérios do DSM-5).
+
+
+### 3
+
+Sintomas depressivos: intensidade moderada (rastreamento positivo: ≥ 10)
+
+| Detalhes do resultado | |
+| --- | --- |
+| Item 9 (pensamentos de morte ou de se ferir) | Nenhuma vez |
+
+Instrumento de rastreamento: não faz diagnóstico. Confirme com entrevista clínica (critérios do DSM-5).
+
+
+### 4
+
+Sintomas depressivos: intensidade grave (rastreamento positivo: ≥ 10)
+
+| Detalhes do resultado | |
+| --- | --- |
+| Item 9 (pensamentos de morte ou de se ferir) | Nenhuma vez |
+
+Instrumento de rastreamento: não faz diagnóstico. Confirme com entrevista clínica (critérios do DSM-5).
+
+
+### 5
+
+Sintomas depressivos: intensidade mínima. Item 9 positivo: avaliar risco de suicídio agora
+
+| Detalhes do resultado | |
+| --- | --- |
+| Item 9 (pensamentos de morte ou de se ferir) | Vários dias |
+
+Pensamentos de morte ou de se ferir: pergunte diretamente sobre ideação, plano e meios, e não deixe a pessoa sozinha se o risco for iminente. Apoio emocional 24 h e gratuito: CVV 188 (ou cvv.org.br). Risco imediato: SAMU 192 ou pronto-socorro.
+

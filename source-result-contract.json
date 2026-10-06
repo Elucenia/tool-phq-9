@@ -1,0 +1,369 @@
+{
+  "schema": "elucenia-public-source-result-preservation-v1",
+  "id": "phq-9",
+  "source": {
+    "baselineFile": "reports/review-20261005-completion/public-native-output-baseline-r2/baseline.json",
+    "baselineSha256": "e5f274fa5acc74566e1c3d55afb6bb402ad9928337dd77a2945442f5b6c49439",
+    "previousCommit": "5697f8a12fca0aaf6240dfb25ed8974f675bb517",
+    "oldEngineSha256": "64c134e5493b9a1e48d3b025078e9bb44890684a3031e3f06f239b64d4fba9d9",
+    "currentEngineSha256": "32327993073dbe1c00ab3fc6817f0efc029e3e71bf557b68179a7765957d3cf6"
+  },
+  "scope": "Existing synthetic inputs and same pinned mathematical-function outputs. Clinical interpretation correctness and professional translation are separate unperformed reviews.",
+  "clinicalApproval": "not-performed",
+  "professionalLanguageReview": "not-performed",
+  "cases": [
+    {
+      "caseIndex": 0,
+      "name": "Todos “nenhuma vez”: 0 (mínima)",
+      "input": {
+        "q1": "0",
+        "q2": "0",
+        "q3": "0",
+        "q4": "0",
+        "q5": "0",
+        "q6": "0",
+        "q7": "0",
+        "q8": "0",
+        "q9": "0"
+      },
+      "publicOutput": {
+        "id": "phq-9",
+        "main": [
+          "0",
+          "de 27"
+        ],
+        "label": "PHQ-9",
+        "raw": {
+          "score": 0,
+          "item9": 0
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "score": 0,
+          "item9": 0
+        },
+        "level": "low",
+        "verdict": "mínima"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "0",
+          "de 27"
+        ],
+        "label": "PHQ-9",
+        "level": "low",
+        "verdict": "Sintomas depressivos: intensidade mínima",
+        "rows": [
+          [
+            "Item 9 (pensamentos de morte ou de se ferir)",
+            "Nenhuma vez"
+          ]
+        ],
+        "note": "Instrumento de rastreamento: não faz diagnóstico. Confirme com entrevista clínica (critérios do DSM-5).",
+        "raw": {
+          "score": 0,
+          "item9": 0
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows",
+        "note"
+      ]
+    },
+    {
+      "caseIndex": 1,
+      "name": "Sono, cansaço e apetite em vários dias, anedonia na metade dos dias: 5 (leve)",
+      "input": {
+        "q1": "2",
+        "q2": "0",
+        "q3": "1",
+        "q4": "1",
+        "q5": "1",
+        "q6": "0",
+        "q7": "0",
+        "q8": "0",
+        "q9": "0"
+      },
+      "publicOutput": {
+        "id": "phq-9",
+        "main": [
+          "5",
+          "de 27"
+        ],
+        "label": "PHQ-9",
+        "raw": {
+          "score": 5,
+          "item9": 0
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "score": 5
+        },
+        "level": "mid",
+        "verdict": "leve"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "5",
+          "de 27"
+        ],
+        "label": "PHQ-9",
+        "level": "mid",
+        "verdict": "Sintomas depressivos: intensidade leve",
+        "rows": [
+          [
+            "Item 9 (pensamentos de morte ou de se ferir)",
+            "Nenhuma vez"
+          ]
+        ],
+        "note": "Instrumento de rastreamento: não faz diagnóstico. Confirme com entrevista clínica (critérios do DSM-5).",
+        "raw": {
+          "score": 5,
+          "item9": 0
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows",
+        "note"
+      ]
+    },
+    {
+      "caseIndex": 2,
+      "name": "Limite de rastreamento positivo: 10 (moderada)",
+      "input": {
+        "q1": "2",
+        "q2": "2",
+        "q3": "2",
+        "q4": "2",
+        "q5": "1",
+        "q6": "1",
+        "q7": "0",
+        "q8": "0",
+        "q9": "0"
+      },
+      "publicOutput": {
+        "id": "phq-9",
+        "main": [
+          "10",
+          "de 27"
+        ],
+        "label": "PHQ-9",
+        "raw": {
+          "score": 10,
+          "item9": 0
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "score": 10
+        },
+        "level": "mid",
+        "verdict": "moderada (rastreamento positivo"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "10",
+          "de 27"
+        ],
+        "label": "PHQ-9",
+        "level": "mid",
+        "verdict": "Sintomas depressivos: intensidade moderada (rastreamento positivo: ≥ 10)",
+        "rows": [
+          [
+            "Item 9 (pensamentos de morte ou de se ferir)",
+            "Nenhuma vez"
+          ]
+        ],
+        "note": "Instrumento de rastreamento: não faz diagnóstico. Confirme com entrevista clínica (critérios do DSM-5).",
+        "raw": {
+          "score": 10,
+          "item9": 0
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows",
+        "note"
+      ]
+    },
+    {
+      "caseIndex": 3,
+      "name": "Todos “quase todos os dias” exceto item 9 “nenhuma vez”: 24 (grave)",
+      "input": {
+        "q1": "3",
+        "q2": "3",
+        "q3": "3",
+        "q4": "3",
+        "q5": "3",
+        "q6": "3",
+        "q7": "3",
+        "q8": "3",
+        "q9": "0"
+      },
+      "publicOutput": {
+        "id": "phq-9",
+        "main": [
+          "24",
+          "de 27"
+        ],
+        "label": "PHQ-9",
+        "raw": {
+          "score": 24,
+          "item9": 0
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "score": 24,
+          "item9": 0
+        },
+        "level": "high",
+        "verdict": "grave"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "24",
+          "de 27"
+        ],
+        "label": "PHQ-9",
+        "level": "high",
+        "verdict": "Sintomas depressivos: intensidade grave (rastreamento positivo: ≥ 10)",
+        "rows": [
+          [
+            "Item 9 (pensamentos de morte ou de se ferir)",
+            "Nenhuma vez"
+          ]
+        ],
+        "note": "Instrumento de rastreamento: não faz diagnóstico. Confirme com entrevista clínica (critérios do DSM-5).",
+        "raw": {
+          "score": 24,
+          "item9": 0
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows",
+        "note"
+      ]
+    },
+    {
+      "caseIndex": 4,
+      "name": "Total 4, mas item 9 em vários dias: alerta de risco mesmo com soma baixa",
+      "input": {
+        "q1": "1",
+        "q2": "1",
+        "q3": "0",
+        "q4": "1",
+        "q5": "0",
+        "q6": "0",
+        "q7": "0",
+        "q8": "0",
+        "q9": "1"
+      },
+      "publicOutput": {
+        "id": "phq-9",
+        "main": [
+          "4",
+          "de 27"
+        ],
+        "label": "PHQ-9",
+        "raw": {
+          "score": 4,
+          "item9": 1
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "score": 4,
+          "item9": 1
+        },
+        "level": "high",
+        "verdict": "risco de suicídio"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "4",
+          "de 27"
+        ],
+        "label": "PHQ-9",
+        "level": "high",
+        "verdict": "Sintomas depressivos: intensidade mínima. Item 9 positivo: avaliar risco de suicídio agora",
+        "rows": [
+          [
+            "Item 9 (pensamentos de morte ou de se ferir)",
+            "Vários dias"
+          ]
+        ],
+        "note": "Pensamentos de morte ou de se ferir: pergunte diretamente sobre ideação, plano e meios, e não deixe a pessoa sozinha se o risco for iminente. Apoio emocional 24 h e gratuito: <strong>CVV 188</strong> (ou cvv.org.br). Risco imediato: SAMU 192 ou pronto-socorro.",
+        "raw": {
+          "score": 4,
+          "item9": 1
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows",
+        "note"
+      ]
+    }
+  ]
+}

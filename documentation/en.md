@@ -138,3 +138,62 @@ Formula or classification result. Interpretation, care and applicability depend 
 Apache-2.0 applies only to ELUCENIA code. Rights to instruments, publications, translations and data remain with their respective holders. Preserve LICENSE and NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Documented results
+
+The information below preserves the method outputs for synthetic examples. It does not constitute independent clinical validation.
+
+### 1
+
+Depressive symptoms: minimal intensity
+
+| Result details | |
+| --- | --- |
+| Item 9 (thoughts of death or of hurting yourself) | Never |
+
+Screening instrument: does not make a diagnosis. Confirm with a clinical interview (DSM-5 criteria).
+
+
+### 2
+
+Depressive symptoms: mild intensity
+
+| Result details | |
+| --- | --- |
+| Item 9 (thoughts of death or of hurting yourself) | Never |
+
+Screening instrument: does not make a diagnosis. Confirm with a clinical interview (DSM-5 criteria).
+
+
+### 3
+
+Depressive symptoms: moderate intensity (positive screening: ≥ 10)
+
+| Result details | |
+| --- | --- |
+| Item 9 (thoughts of death or of hurting yourself) | Never |
+
+Screening instrument: does not make a diagnosis. Confirm with a clinical interview (DSM-5 criteria).
+
+
+### 4
+
+Depressive symptoms: severe intensity (positive screening: ≥ 10)
+
+| Result details | |
+| --- | --- |
+| Item 9 (thoughts of death or of hurting yourself) | Never |
+
+Screening instrument: does not make a diagnosis. Confirm with a clinical interview (DSM-5 criteria).
+
+
+### 5
+
+Depressive symptoms: minimal intensity. Item 9 positive: assess suicide risk now
+
+| Result details | |
+| --- | --- |
+| Item 9 (thoughts of death or of hurting yourself) | Several days |
+
+Thoughts of death or of hurting yourself: ask directly about ideation, plan, and means, and do not leave the person alone if the risk is imminent. 24 h free emotional support: CVV 188 (or cvv.org.br). Immediate risk: SAMU 192 or emergency department.
+

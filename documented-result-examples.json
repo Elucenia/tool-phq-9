@@ -1,0 +1,1577 @@
+{
+  "id": "phq-9",
+  "implementationVersion": "phq-9@native-2026-10-05+32327993073d",
+  "scope": "Rendered current output against the same source method; not an independent numerical/clinical oracle",
+  "locales": {
+    "pt-BR": [
+      {
+        "name": "Todos “nenhuma vez”: 0 (mínima)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Item 9 (pensamentos de morte ou de se ferir)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "Nenhuma vez",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Sintomas depressivos: intensidade mínima",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Instrumento de rastreamento: não faz diagnóstico. Confirme com entrevista clínica (critérios do DSM-5).",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Sono, cansaço e apetite em vários dias, anedonia na metade dos dias: 5 (leve)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Item 9 (pensamentos de morte ou de se ferir)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "Nenhuma vez",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Sintomas depressivos: intensidade leve",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Instrumento de rastreamento: não faz diagnóstico. Confirme com entrevista clínica (critérios do DSM-5).",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Limite de rastreamento positivo: 10 (moderada)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Item 9 (pensamentos de morte ou de se ferir)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "Nenhuma vez",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Sintomas depressivos: intensidade moderada (rastreamento positivo: ≥ 10)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Instrumento de rastreamento: não faz diagnóstico. Confirme com entrevista clínica (critérios do DSM-5).",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Todos “quase todos os dias” exceto item 9 “nenhuma vez”: 24 (grave)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Item 9 (pensamentos de morte ou de se ferir)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "Nenhuma vez",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Sintomas depressivos: intensidade grave (rastreamento positivo: ≥ 10)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Instrumento de rastreamento: não faz diagnóstico. Confirme com entrevista clínica (critérios do DSM-5).",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Total 4, mas item 9 em vários dias: alerta de risco mesmo com soma baixa",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Item 9 (pensamentos de morte ou de se ferir)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "Vários dias",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Sintomas depressivos: intensidade mínima. Item 9 positivo: avaliar risco de suicídio agora",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Pensamentos de morte ou de se ferir: pergunte diretamente sobre ideação, plano e meios, e não deixe a pessoa sozinha se o risco for iminente. Apoio emocional 24 h e gratuito: CVV 188 (ou cvv.org.br). Risco imediato: SAMU 192 ou pronto-socorro.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "en": [
+      {
+        "name": "Todos “nenhuma vez”: 0 (mínima)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Item 9 (thoughts of death or of hurting yourself)",
+                "locale": "en",
+                "template": "documented-authored-360ca302d8ab8bd076f9"
+              },
+              "value": {
+                "text": "Never",
+                "locale": "en",
+                "template": "documented-authored-80f32963051d27b286ac"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Depressive symptoms: minimal intensity",
+            "locale": "en",
+            "template": "documented-authored-b78bd6751afe06da58ff"
+          },
+          "note": {
+            "text": "Screening instrument: does not make a diagnosis. Confirm with a clinical interview (DSM-5 criteria).",
+            "locale": "en",
+            "template": "documented-authored-515f33316f4d6d5e74bc"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Sono, cansaço e apetite em vários dias, anedonia na metade dos dias: 5 (leve)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Item 9 (thoughts of death or of hurting yourself)",
+                "locale": "en",
+                "template": "documented-authored-360ca302d8ab8bd076f9"
+              },
+              "value": {
+                "text": "Never",
+                "locale": "en",
+                "template": "documented-authored-80f32963051d27b286ac"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Depressive symptoms: mild intensity",
+            "locale": "en",
+            "template": "documented-authored-ddaa6ee7c0435d88dc1a"
+          },
+          "note": {
+            "text": "Screening instrument: does not make a diagnosis. Confirm with a clinical interview (DSM-5 criteria).",
+            "locale": "en",
+            "template": "documented-authored-515f33316f4d6d5e74bc"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Limite de rastreamento positivo: 10 (moderada)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Item 9 (thoughts of death or of hurting yourself)",
+                "locale": "en",
+                "template": "documented-authored-360ca302d8ab8bd076f9"
+              },
+              "value": {
+                "text": "Never",
+                "locale": "en",
+                "template": "documented-authored-80f32963051d27b286ac"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Depressive symptoms: moderate intensity (positive screening: ≥ 10)",
+            "locale": "en",
+            "template": "documented-authored-a1610e628c10b5897a96"
+          },
+          "note": {
+            "text": "Screening instrument: does not make a diagnosis. Confirm with a clinical interview (DSM-5 criteria).",
+            "locale": "en",
+            "template": "documented-authored-515f33316f4d6d5e74bc"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Todos “quase todos os dias” exceto item 9 “nenhuma vez”: 24 (grave)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Item 9 (thoughts of death or of hurting yourself)",
+                "locale": "en",
+                "template": "documented-authored-360ca302d8ab8bd076f9"
+              },
+              "value": {
+                "text": "Never",
+                "locale": "en",
+                "template": "documented-authored-80f32963051d27b286ac"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Depressive symptoms: severe intensity (positive screening: ≥ 10)",
+            "locale": "en",
+            "template": "documented-authored-4d69662ad1265c033e8d"
+          },
+          "note": {
+            "text": "Screening instrument: does not make a diagnosis. Confirm with a clinical interview (DSM-5 criteria).",
+            "locale": "en",
+            "template": "documented-authored-515f33316f4d6d5e74bc"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Total 4, mas item 9 em vários dias: alerta de risco mesmo com soma baixa",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Item 9 (thoughts of death or of hurting yourself)",
+                "locale": "en",
+                "template": "documented-authored-360ca302d8ab8bd076f9"
+              },
+              "value": {
+                "text": "Several days",
+                "locale": "en",
+                "template": "documented-authored-19be7664401059288425"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Depressive symptoms: minimal intensity. Item 9 positive: assess suicide risk now",
+            "locale": "en",
+            "template": "documented-authored-0505cea676ded4394bf7"
+          },
+          "note": {
+            "text": "Thoughts of death or of hurting yourself: ask directly about ideation, plan, and means, and do not leave the person alone if the risk is imminent. 24 h free emotional support: CVV 188 (or cvv.org.br). Immediate risk: SAMU 192 or emergency department.",
+            "locale": "en",
+            "template": "documented-authored-fcc2a606c57cc0e0f88b"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "es": [
+      {
+        "name": "Todos “nenhuma vez”: 0 (mínima)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Ítem 9 (pensamientos de muerte o de hacerse daño)",
+                "locale": "es",
+                "template": "documented-authored-360ca302d8ab8bd076f9"
+              },
+              "value": {
+                "text": "Nunca",
+                "locale": "es",
+                "template": "documented-authored-80f32963051d27b286ac"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Síntomas depresivos: intensidad mínima",
+            "locale": "es",
+            "template": "documented-authored-b78bd6751afe06da58ff"
+          },
+          "note": {
+            "text": "Instrumento de cribado: no establece un diagnóstico. Confirme con entrevista clínica (criterios DSM-5).",
+            "locale": "es",
+            "template": "documented-authored-515f33316f4d6d5e74bc"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Sono, cansaço e apetite em vários dias, anedonia na metade dos dias: 5 (leve)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Ítem 9 (pensamientos de muerte o de hacerse daño)",
+                "locale": "es",
+                "template": "documented-authored-360ca302d8ab8bd076f9"
+              },
+              "value": {
+                "text": "Nunca",
+                "locale": "es",
+                "template": "documented-authored-80f32963051d27b286ac"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Síntomas depresivos: intensidad leve",
+            "locale": "es",
+            "template": "documented-authored-ddaa6ee7c0435d88dc1a"
+          },
+          "note": {
+            "text": "Instrumento de cribado: no establece un diagnóstico. Confirme con entrevista clínica (criterios DSM-5).",
+            "locale": "es",
+            "template": "documented-authored-515f33316f4d6d5e74bc"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Limite de rastreamento positivo: 10 (moderada)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Ítem 9 (pensamientos de muerte o de hacerse daño)",
+                "locale": "es",
+                "template": "documented-authored-360ca302d8ab8bd076f9"
+              },
+              "value": {
+                "text": "Nunca",
+                "locale": "es",
+                "template": "documented-authored-80f32963051d27b286ac"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Síntomas depresivos: intensidad moderada (cribado positivo: ≥ 10)",
+            "locale": "es",
+            "template": "documented-authored-a1610e628c10b5897a96"
+          },
+          "note": {
+            "text": "Instrumento de cribado: no establece un diagnóstico. Confirme con entrevista clínica (criterios DSM-5).",
+            "locale": "es",
+            "template": "documented-authored-515f33316f4d6d5e74bc"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Todos “quase todos os dias” exceto item 9 “nenhuma vez”: 24 (grave)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Ítem 9 (pensamientos de muerte o de hacerse daño)",
+                "locale": "es",
+                "template": "documented-authored-360ca302d8ab8bd076f9"
+              },
+              "value": {
+                "text": "Nunca",
+                "locale": "es",
+                "template": "documented-authored-80f32963051d27b286ac"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Síntomas depresivos: intensidad grave (cribado positivo: ≥ 10)",
+            "locale": "es",
+            "template": "documented-authored-4d69662ad1265c033e8d"
+          },
+          "note": {
+            "text": "Instrumento de cribado: no establece un diagnóstico. Confirme con entrevista clínica (criterios DSM-5).",
+            "locale": "es",
+            "template": "documented-authored-515f33316f4d6d5e74bc"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Total 4, mas item 9 em vários dias: alerta de risco mesmo com soma baixa",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Ítem 9 (pensamientos de muerte o de hacerse daño)",
+                "locale": "es",
+                "template": "documented-authored-360ca302d8ab8bd076f9"
+              },
+              "value": {
+                "text": "Varios días",
+                "locale": "es",
+                "template": "documented-authored-19be7664401059288425"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Síntomas depresivos: intensidad mínima. Ítem 9 positivo: evaluar ahora el riesgo de suicidio",
+            "locale": "es",
+            "template": "documented-authored-0505cea676ded4394bf7"
+          },
+          "note": {
+            "text": "Pensamientos de muerte o de hacerse daño: pregunte directamente sobre ideación, plan y medios, y no deje sola a la persona si el riesgo es inminente. Apoyo emocional gratuito 24 h: CVV 188 (o cvv.org.br). Riesgo inmediato: SAMU 192 o urgencias.",
+            "locale": "es",
+            "template": "documented-authored-fcc2a606c57cc0e0f88b"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "fr": [
+      {
+        "name": "Todos “nenhuma vez”: 0 (mínima)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Item 9 (pensées de mort ou de se faire du mal)",
+                "locale": "fr",
+                "template": "documented-authored-360ca302d8ab8bd076f9"
+              },
+              "value": {
+                "text": "Jamais",
+                "locale": "fr",
+                "template": "documented-authored-80f32963051d27b286ac"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Symptômes dépressifs : intensité minimale",
+            "locale": "fr",
+            "template": "documented-authored-b78bd6751afe06da58ff"
+          },
+          "note": {
+            "text": "Instrument de dépistage : ne permet pas d’établir un diagnostic. Confirmer par un entretien clinique (critères du DSM-5).",
+            "locale": "fr",
+            "template": "documented-authored-515f33316f4d6d5e74bc"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Sono, cansaço e apetite em vários dias, anedonia na metade dos dias: 5 (leve)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Item 9 (pensées de mort ou de se faire du mal)",
+                "locale": "fr",
+                "template": "documented-authored-360ca302d8ab8bd076f9"
+              },
+              "value": {
+                "text": "Jamais",
+                "locale": "fr",
+                "template": "documented-authored-80f32963051d27b286ac"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Symptômes dépressifs : intensité légère",
+            "locale": "fr",
+            "template": "documented-authored-ddaa6ee7c0435d88dc1a"
+          },
+          "note": {
+            "text": "Instrument de dépistage : ne permet pas d’établir un diagnostic. Confirmer par un entretien clinique (critères du DSM-5).",
+            "locale": "fr",
+            "template": "documented-authored-515f33316f4d6d5e74bc"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Limite de rastreamento positivo: 10 (moderada)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Item 9 (pensées de mort ou de se faire du mal)",
+                "locale": "fr",
+                "template": "documented-authored-360ca302d8ab8bd076f9"
+              },
+              "value": {
+                "text": "Jamais",
+                "locale": "fr",
+                "template": "documented-authored-80f32963051d27b286ac"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Symptômes dépressifs : intensité modérée (dépistage positif : ≥ 10)",
+            "locale": "fr",
+            "template": "documented-authored-a1610e628c10b5897a96"
+          },
+          "note": {
+            "text": "Instrument de dépistage : ne permet pas d’établir un diagnostic. Confirmer par un entretien clinique (critères du DSM-5).",
+            "locale": "fr",
+            "template": "documented-authored-515f33316f4d6d5e74bc"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Todos “quase todos os dias” exceto item 9 “nenhuma vez”: 24 (grave)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Item 9 (pensées de mort ou de se faire du mal)",
+                "locale": "fr",
+                "template": "documented-authored-360ca302d8ab8bd076f9"
+              },
+              "value": {
+                "text": "Jamais",
+                "locale": "fr",
+                "template": "documented-authored-80f32963051d27b286ac"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Symptômes dépressifs : intensité sévère (dépistage positif : ≥ 10)",
+            "locale": "fr",
+            "template": "documented-authored-4d69662ad1265c033e8d"
+          },
+          "note": {
+            "text": "Instrument de dépistage : ne permet pas d’établir un diagnostic. Confirmer par un entretien clinique (critères du DSM-5).",
+            "locale": "fr",
+            "template": "documented-authored-515f33316f4d6d5e74bc"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Total 4, mas item 9 em vários dias: alerta de risco mesmo com soma baixa",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Item 9 (pensées de mort ou de se faire du mal)",
+                "locale": "fr",
+                "template": "documented-authored-360ca302d8ab8bd076f9"
+              },
+              "value": {
+                "text": "Plusieurs jours",
+                "locale": "fr",
+                "template": "documented-authored-19be7664401059288425"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Symptômes dépressifs : intensité minimale. Item 9 positif : évaluer maintenant le risque de suicide",
+            "locale": "fr",
+            "template": "documented-authored-0505cea676ded4394bf7"
+          },
+          "note": {
+            "text": "Pensées de mort ou de se faire du mal : demandez directement s’il existe des idées, un plan et des moyens, et ne laissez pas la personne seule si le risque est imminent. Soutien émotionnel gratuit 24 h : CVV 188 (ou cvv.org.br). Risque immédiat : SAMU 192 ou service des urgences.",
+            "locale": "fr",
+            "template": "documented-authored-fcc2a606c57cc0e0f88b"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "de": [
+      {
+        "name": "Todos “nenhuma vez”: 0 (mínima)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Item 9 (Gedanken an den Tod oder daran, sich zu verletzen)",
+                "locale": "de",
+                "template": "documented-authored-360ca302d8ab8bd076f9"
+              },
+              "value": {
+                "text": "Nie",
+                "locale": "de",
+                "template": "documented-authored-80f32963051d27b286ac"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Depressive Symptome: minimale Ausprägung",
+            "locale": "de",
+            "template": "documented-authored-b78bd6751afe06da58ff"
+          },
+          "note": {
+            "text": "Screening-Instrument: stellt keine Diagnose. Mit klinischem Interview bestätigen (DSM-5-Kriterien).",
+            "locale": "de",
+            "template": "documented-authored-515f33316f4d6d5e74bc"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Sono, cansaço e apetite em vários dias, anedonia na metade dos dias: 5 (leve)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Item 9 (Gedanken an den Tod oder daran, sich zu verletzen)",
+                "locale": "de",
+                "template": "documented-authored-360ca302d8ab8bd076f9"
+              },
+              "value": {
+                "text": "Nie",
+                "locale": "de",
+                "template": "documented-authored-80f32963051d27b286ac"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Depressive Symptome: leichte Ausprägung",
+            "locale": "de",
+            "template": "documented-authored-ddaa6ee7c0435d88dc1a"
+          },
+          "note": {
+            "text": "Screening-Instrument: stellt keine Diagnose. Mit klinischem Interview bestätigen (DSM-5-Kriterien).",
+            "locale": "de",
+            "template": "documented-authored-515f33316f4d6d5e74bc"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Limite de rastreamento positivo: 10 (moderada)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Item 9 (Gedanken an den Tod oder daran, sich zu verletzen)",
+                "locale": "de",
+                "template": "documented-authored-360ca302d8ab8bd076f9"
+              },
+              "value": {
+                "text": "Nie",
+                "locale": "de",
+                "template": "documented-authored-80f32963051d27b286ac"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Depressive Symptome: mittelgradige Ausprägung (positives Screening: ≥ 10)",
+            "locale": "de",
+            "template": "documented-authored-a1610e628c10b5897a96"
+          },
+          "note": {
+            "text": "Screening-Instrument: stellt keine Diagnose. Mit klinischem Interview bestätigen (DSM-5-Kriterien).",
+            "locale": "de",
+            "template": "documented-authored-515f33316f4d6d5e74bc"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Todos “quase todos os dias” exceto item 9 “nenhuma vez”: 24 (grave)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Item 9 (Gedanken an den Tod oder daran, sich zu verletzen)",
+                "locale": "de",
+                "template": "documented-authored-360ca302d8ab8bd076f9"
+              },
+              "value": {
+                "text": "Nie",
+                "locale": "de",
+                "template": "documented-authored-80f32963051d27b286ac"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Depressive Symptome: schwere Ausprägung (positives Screening: ≥ 10)",
+            "locale": "de",
+            "template": "documented-authored-4d69662ad1265c033e8d"
+          },
+          "note": {
+            "text": "Screening-Instrument: stellt keine Diagnose. Mit klinischem Interview bestätigen (DSM-5-Kriterien).",
+            "locale": "de",
+            "template": "documented-authored-515f33316f4d6d5e74bc"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Total 4, mas item 9 em vários dias: alerta de risco mesmo com soma baixa",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Item 9 (Gedanken an den Tod oder daran, sich zu verletzen)",
+                "locale": "de",
+                "template": "documented-authored-360ca302d8ab8bd076f9"
+              },
+              "value": {
+                "text": "An mehreren Tagen",
+                "locale": "de",
+                "template": "documented-authored-19be7664401059288425"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Depressive Symptome: minimale Ausprägung. Item 9 positiv: Suizidrisiko jetzt beurteilen",
+            "locale": "de",
+            "template": "documented-authored-0505cea676ded4394bf7"
+          },
+          "note": {
+            "text": "Gedanken an den Tod oder daran, sich zu verletzen: fragen Sie direkt nach Suizidgedanken, Plan und Mitteln und lassen Sie die Person nicht allein, wenn ein unmittelbares Risiko besteht. Kostenlose emotionale Unterstützung rund um die Uhr: CVV 188 (oder cvv.org.br). Unmittelbares Risiko: SAMU 192 oder Notaufnahme.",
+            "locale": "de",
+            "template": "documented-authored-fcc2a606c57cc0e0f88b"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "it": [
+      {
+        "name": "Todos “nenhuma vez”: 0 (mínima)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Item 9 (pensieri di morte o di farsi del male)",
+                "locale": "it",
+                "template": "documented-authored-360ca302d8ab8bd076f9"
+              },
+              "value": {
+                "text": "Mai",
+                "locale": "it",
+                "template": "documented-authored-80f32963051d27b286ac"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Sintomi depressivi: intensità minima",
+            "locale": "it",
+            "template": "documented-authored-b78bd6751afe06da58ff"
+          },
+          "note": {
+            "text": "Strumento di screening: non pone diagnosi. Confermare con intervista clinica (criteri del DSM-5).",
+            "locale": "it",
+            "template": "documented-authored-515f33316f4d6d5e74bc"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Sono, cansaço e apetite em vários dias, anedonia na metade dos dias: 5 (leve)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Item 9 (pensieri di morte o di farsi del male)",
+                "locale": "it",
+                "template": "documented-authored-360ca302d8ab8bd076f9"
+              },
+              "value": {
+                "text": "Mai",
+                "locale": "it",
+                "template": "documented-authored-80f32963051d27b286ac"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Sintomi depressivi: intensità lieve",
+            "locale": "it",
+            "template": "documented-authored-ddaa6ee7c0435d88dc1a"
+          },
+          "note": {
+            "text": "Strumento di screening: non pone diagnosi. Confermare con intervista clinica (criteri del DSM-5).",
+            "locale": "it",
+            "template": "documented-authored-515f33316f4d6d5e74bc"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Limite de rastreamento positivo: 10 (moderada)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Item 9 (pensieri di morte o di farsi del male)",
+                "locale": "it",
+                "template": "documented-authored-360ca302d8ab8bd076f9"
+              },
+              "value": {
+                "text": "Mai",
+                "locale": "it",
+                "template": "documented-authored-80f32963051d27b286ac"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Sintomi depressivi: intensità moderata (screening positivo: ≥ 10)",
+            "locale": "it",
+            "template": "documented-authored-a1610e628c10b5897a96"
+          },
+          "note": {
+            "text": "Strumento di screening: non pone diagnosi. Confermare con intervista clinica (criteri del DSM-5).",
+            "locale": "it",
+            "template": "documented-authored-515f33316f4d6d5e74bc"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Todos “quase todos os dias” exceto item 9 “nenhuma vez”: 24 (grave)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Item 9 (pensieri di morte o di farsi del male)",
+                "locale": "it",
+                "template": "documented-authored-360ca302d8ab8bd076f9"
+              },
+              "value": {
+                "text": "Mai",
+                "locale": "it",
+                "template": "documented-authored-80f32963051d27b286ac"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Sintomi depressivi: intensità grave (screening positivo: ≥ 10)",
+            "locale": "it",
+            "template": "documented-authored-4d69662ad1265c033e8d"
+          },
+          "note": {
+            "text": "Strumento di screening: non pone diagnosi. Confermare con intervista clinica (criteri del DSM-5).",
+            "locale": "it",
+            "template": "documented-authored-515f33316f4d6d5e74bc"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Total 4, mas item 9 em vários dias: alerta de risco mesmo com soma baixa",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Item 9 (pensieri di morte o di farsi del male)",
+                "locale": "it",
+                "template": "documented-authored-360ca302d8ab8bd076f9"
+              },
+              "value": {
+                "text": "Diversi giorni",
+                "locale": "it",
+                "template": "documented-authored-19be7664401059288425"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Sintomi depressivi: intensità minima. Item 9 positivo: valutare ora il rischio di suicidio",
+            "locale": "it",
+            "template": "documented-authored-0505cea676ded4394bf7"
+          },
+          "note": {
+            "text": "Pensieri di morte o di farsi del male: chiedere direttamente di ideazione, piano e mezzi, e non lasciare la persona da sola se il rischio è imminente. Supporto emotivo gratuito 24 h: CVV 188 (o cvv.org.br). Rischio immediato: SAMU 192 o pronto soccorso.",
+            "locale": "it",
+            "template": "documented-authored-fcc2a606c57cc0e0f88b"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ar": [
+      {
+        "name": "Todos “nenhuma vez”: 0 (mínima)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "البند 9 (أفكار الموت أو إيذاء النفس)",
+                "locale": "ar",
+                "template": "documented-authored-360ca302d8ab8bd076f9"
+              },
+              "value": {
+                "text": "ولا مرة",
+                "locale": "ar",
+                "template": "documented-authored-80f32963051d27b286ac"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "أعراض اكتئابية: شدة طفيفة",
+            "locale": "ar",
+            "template": "documented-authored-b78bd6751afe06da58ff"
+          },
+          "note": {
+            "text": "أداة تحرّي: لا تُشخِّص. أكِّد ذلك بمقابلة سريرية (معايير DSM-5).",
+            "locale": "ar",
+            "template": "documented-authored-515f33316f4d6d5e74bc"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Sono, cansaço e apetite em vários dias, anedonia na metade dos dias: 5 (leve)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "البند 9 (أفكار الموت أو إيذاء النفس)",
+                "locale": "ar",
+                "template": "documented-authored-360ca302d8ab8bd076f9"
+              },
+              "value": {
+                "text": "ولا مرة",
+                "locale": "ar",
+                "template": "documented-authored-80f32963051d27b286ac"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "أعراض اكتئابية: شدة خفيفة",
+            "locale": "ar",
+            "template": "documented-authored-ddaa6ee7c0435d88dc1a"
+          },
+          "note": {
+            "text": "أداة تحرّي: لا تُشخِّص. أكِّد ذلك بمقابلة سريرية (معايير DSM-5).",
+            "locale": "ar",
+            "template": "documented-authored-515f33316f4d6d5e74bc"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Limite de rastreamento positivo: 10 (moderada)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "البند 9 (أفكار الموت أو إيذاء النفس)",
+                "locale": "ar",
+                "template": "documented-authored-360ca302d8ab8bd076f9"
+              },
+              "value": {
+                "text": "ولا مرة",
+                "locale": "ar",
+                "template": "documented-authored-80f32963051d27b286ac"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "أعراض اكتئابية: شدة متوسطة (فحص إيجابي: ≥ 10)",
+            "locale": "ar",
+            "template": "documented-authored-a1610e628c10b5897a96"
+          },
+          "note": {
+            "text": "أداة تحرّي: لا تُشخِّص. أكِّد ذلك بمقابلة سريرية (معايير DSM-5).",
+            "locale": "ar",
+            "template": "documented-authored-515f33316f4d6d5e74bc"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Todos “quase todos os dias” exceto item 9 “nenhuma vez”: 24 (grave)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "البند 9 (أفكار الموت أو إيذاء النفس)",
+                "locale": "ar",
+                "template": "documented-authored-360ca302d8ab8bd076f9"
+              },
+              "value": {
+                "text": "ولا مرة",
+                "locale": "ar",
+                "template": "documented-authored-80f32963051d27b286ac"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "أعراض اكتئابية: شدة شديدة (فحص إيجابي: ≥ 10)",
+            "locale": "ar",
+            "template": "documented-authored-4d69662ad1265c033e8d"
+          },
+          "note": {
+            "text": "أداة تحرّي: لا تُشخِّص. أكِّد ذلك بمقابلة سريرية (معايير DSM-5).",
+            "locale": "ar",
+            "template": "documented-authored-515f33316f4d6d5e74bc"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Total 4, mas item 9 em vários dias: alerta de risco mesmo com soma baixa",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "البند 9 (أفكار الموت أو إيذاء النفس)",
+                "locale": "ar",
+                "template": "documented-authored-360ca302d8ab8bd076f9"
+              },
+              "value": {
+                "text": "عدة أيام",
+                "locale": "ar",
+                "template": "documented-authored-19be7664401059288425"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "أعراض اكتئابية: شدة طفيفة. البند 9 إيجابي: قيِّم خطر الانتحار الآن",
+            "locale": "ar",
+            "template": "documented-authored-0505cea676ded4394bf7"
+          },
+          "note": {
+            "text": "أفكار الموت أو إيذاء النفس: اسأل مباشرة عن الأفكار والخطة والوسائل، ولا تترك الشخص وحده إذا كان الخطر وشيكًا. دعم عاطفي مجاني 24 ساعة: CVV 188 (أو cvv.org.br). خطر فوري: SAMU 192 أو قسم الطوارئ.",
+            "locale": "ar",
+            "template": "documented-authored-fcc2a606c57cc0e0f88b"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "zh": [
+      {
+        "name": "Todos “nenhuma vez”: 0 (mínima)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "第 9 项（关于死亡或自伤的想法）",
+                "locale": "zh",
+                "template": "documented-authored-360ca302d8ab8bd076f9"
+              },
+              "value": {
+                "text": "从未",
+                "locale": "zh",
+                "template": "documented-authored-80f32963051d27b286ac"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "抑郁症状：最低强度",
+            "locale": "zh",
+            "template": "documented-authored-b78bd6751afe06da58ff"
+          },
+          "note": {
+            "text": "筛查工具：不能作出诊断。请通过临床访谈（DSM-5 标准）确认。",
+            "locale": "zh",
+            "template": "documented-authored-515f33316f4d6d5e74bc"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Sono, cansaço e apetite em vários dias, anedonia na metade dos dias: 5 (leve)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "第 9 项（关于死亡或自伤的想法）",
+                "locale": "zh",
+                "template": "documented-authored-360ca302d8ab8bd076f9"
+              },
+              "value": {
+                "text": "从未",
+                "locale": "zh",
+                "template": "documented-authored-80f32963051d27b286ac"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "抑郁症状：轻度强度",
+            "locale": "zh",
+            "template": "documented-authored-ddaa6ee7c0435d88dc1a"
+          },
+          "note": {
+            "text": "筛查工具：不能作出诊断。请通过临床访谈（DSM-5 标准）确认。",
+            "locale": "zh",
+            "template": "documented-authored-515f33316f4d6d5e74bc"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Limite de rastreamento positivo: 10 (moderada)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "第 9 项（关于死亡或自伤的想法）",
+                "locale": "zh",
+                "template": "documented-authored-360ca302d8ab8bd076f9"
+              },
+              "value": {
+                "text": "从未",
+                "locale": "zh",
+                "template": "documented-authored-80f32963051d27b286ac"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "抑郁症状：中度强度（筛查阳性：≥ 10）",
+            "locale": "zh",
+            "template": "documented-authored-a1610e628c10b5897a96"
+          },
+          "note": {
+            "text": "筛查工具：不能作出诊断。请通过临床访谈（DSM-5 标准）确认。",
+            "locale": "zh",
+            "template": "documented-authored-515f33316f4d6d5e74bc"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Todos “quase todos os dias” exceto item 9 “nenhuma vez”: 24 (grave)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "第 9 项（关于死亡或自伤的想法）",
+                "locale": "zh",
+                "template": "documented-authored-360ca302d8ab8bd076f9"
+              },
+              "value": {
+                "text": "从未",
+                "locale": "zh",
+                "template": "documented-authored-80f32963051d27b286ac"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "抑郁症状：重度强度（筛查阳性：≥ 10）",
+            "locale": "zh",
+            "template": "documented-authored-4d69662ad1265c033e8d"
+          },
+          "note": {
+            "text": "筛查工具：不能作出诊断。请通过临床访谈（DSM-5 标准）确认。",
+            "locale": "zh",
+            "template": "documented-authored-515f33316f4d6d5e74bc"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Total 4, mas item 9 em vários dias: alerta de risco mesmo com soma baixa",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "第 9 项（关于死亡或自伤的想法）",
+                "locale": "zh",
+                "template": "documented-authored-360ca302d8ab8bd076f9"
+              },
+              "value": {
+                "text": "几天",
+                "locale": "zh",
+                "template": "documented-authored-19be7664401059288425"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "抑郁症状：最低强度。第 9 项阳性：现在评估自杀风险",
+            "locale": "zh",
+            "template": "documented-authored-0505cea676ded4394bf7"
+          },
+          "note": {
+            "text": "关于死亡或自伤的想法：请直接询问是否有想法、计划和手段；如果风险迫在眉睫，不要让此人独处。24 小时免费情绪支持：CVV 188（或 cvv.org.br）。立即风险：SAMU 192 或急诊室。",
+            "locale": "zh",
+            "template": "documented-authored-fcc2a606c57cc0e0f88b"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ja": [
+      {
+        "name": "Todos “nenhuma vez”: 0 (mínima)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "項目9（死にたい気持ちや自分を傷つける考え）",
+                "locale": "ja",
+                "template": "documented-authored-360ca302d8ab8bd076f9"
+              },
+              "value": {
+                "text": "一度もない",
+                "locale": "ja",
+                "template": "documented-authored-80f32963051d27b286ac"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "抑うつ症状：最小強度",
+            "locale": "ja",
+            "template": "documented-authored-b78bd6751afe06da58ff"
+          },
+          "note": {
+            "text": "スクリーニングツール：診断は行いません。臨床面接（DSM-5基準）で確認してください。",
+            "locale": "ja",
+            "template": "documented-authored-515f33316f4d6d5e74bc"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Sono, cansaço e apetite em vários dias, anedonia na metade dos dias: 5 (leve)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "項目9（死にたい気持ちや自分を傷つける考え）",
+                "locale": "ja",
+                "template": "documented-authored-360ca302d8ab8bd076f9"
+              },
+              "value": {
+                "text": "一度もない",
+                "locale": "ja",
+                "template": "documented-authored-80f32963051d27b286ac"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "抑うつ症状：軽度",
+            "locale": "ja",
+            "template": "documented-authored-ddaa6ee7c0435d88dc1a"
+          },
+          "note": {
+            "text": "スクリーニングツール：診断は行いません。臨床面接（DSM-5基準）で確認してください。",
+            "locale": "ja",
+            "template": "documented-authored-515f33316f4d6d5e74bc"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Limite de rastreamento positivo: 10 (moderada)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "項目9（死にたい気持ちや自分を傷つける考え）",
+                "locale": "ja",
+                "template": "documented-authored-360ca302d8ab8bd076f9"
+              },
+              "value": {
+                "text": "一度もない",
+                "locale": "ja",
+                "template": "documented-authored-80f32963051d27b286ac"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "抑うつ症状：中等度（陽性スクリーニング：≥ 10）",
+            "locale": "ja",
+            "template": "documented-authored-a1610e628c10b5897a96"
+          },
+          "note": {
+            "text": "スクリーニングツール：診断は行いません。臨床面接（DSM-5基準）で確認してください。",
+            "locale": "ja",
+            "template": "documented-authored-515f33316f4d6d5e74bc"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Todos “quase todos os dias” exceto item 9 “nenhuma vez”: 24 (grave)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "項目9（死にたい気持ちや自分を傷つける考え）",
+                "locale": "ja",
+                "template": "documented-authored-360ca302d8ab8bd076f9"
+              },
+              "value": {
+                "text": "一度もない",
+                "locale": "ja",
+                "template": "documented-authored-80f32963051d27b286ac"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "抑うつ症状：重度（陽性スクリーニング：≥ 10）",
+            "locale": "ja",
+            "template": "documented-authored-4d69662ad1265c033e8d"
+          },
+          "note": {
+            "text": "スクリーニングツール：診断は行いません。臨床面接（DSM-5基準）で確認してください。",
+            "locale": "ja",
+            "template": "documented-authored-515f33316f4d6d5e74bc"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Total 4, mas item 9 em vários dias: alerta de risco mesmo com soma baixa",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "項目9（死にたい気持ちや自分を傷つける考え）",
+                "locale": "ja",
+                "template": "documented-authored-360ca302d8ab8bd076f9"
+              },
+              "value": {
+                "text": "数日",
+                "locale": "ja",
+                "template": "documented-authored-19be7664401059288425"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "抑うつ症状：最小強度。項目9陽性：現在の自殺リスクを評価する",
+            "locale": "ja",
+            "template": "documented-authored-0505cea676ded4394bf7"
+          },
+          "note": {
+            "text": "死にたい気持ちや自分を傷つける考え：希死念慮、計画、手段について直接尋ね、差し迫った危険がある場合はその人を一人にしないでください。24時間無料の感情的支援：CVV 188（または cvv.org.br）。緊急の危険：SAMU 192 または救急外来。",
+            "locale": "ja",
+            "template": "documented-authored-fcc2a606c57cc0e0f88b"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "hi": [
+      {
+        "name": "Todos “nenhuma vez”: 0 (mínima)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "आइटम 9 (मृत्यु के विचार या स्वयं को चोट पहुँचाने के विचार)",
+                "locale": "hi",
+                "template": "documented-authored-360ca302d8ab8bd076f9"
+              },
+              "value": {
+                "text": "एक बार भी नहीं",
+                "locale": "hi",
+                "template": "documented-authored-80f32963051d27b286ac"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "अवसादग्रस्त लक्षण: न्यूनतम तीव्रता",
+            "locale": "hi",
+            "template": "documented-authored-b78bd6751afe06da58ff"
+          },
+          "note": {
+            "text": "स्क्रीनिंग उपकरण: निदान नहीं करता। नैदानिक साक्षात्कार (DSM-5 मानदंड) से पुष्टि करें।",
+            "locale": "hi",
+            "template": "documented-authored-515f33316f4d6d5e74bc"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Sono, cansaço e apetite em vários dias, anedonia na metade dos dias: 5 (leve)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "आइटम 9 (मृत्यु के विचार या स्वयं को चोट पहुँचाने के विचार)",
+                "locale": "hi",
+                "template": "documented-authored-360ca302d8ab8bd076f9"
+              },
+              "value": {
+                "text": "एक बार भी नहीं",
+                "locale": "hi",
+                "template": "documented-authored-80f32963051d27b286ac"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "अवसादग्रस्त लक्षण: हल्की तीव्रता",
+            "locale": "hi",
+            "template": "documented-authored-ddaa6ee7c0435d88dc1a"
+          },
+          "note": {
+            "text": "स्क्रीनिंग उपकरण: निदान नहीं करता। नैदानिक साक्षात्कार (DSM-5 मानदंड) से पुष्टि करें।",
+            "locale": "hi",
+            "template": "documented-authored-515f33316f4d6d5e74bc"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Limite de rastreamento positivo: 10 (moderada)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "आइटम 9 (मृत्यु के विचार या स्वयं को चोट पहुँचाने के विचार)",
+                "locale": "hi",
+                "template": "documented-authored-360ca302d8ab8bd076f9"
+              },
+              "value": {
+                "text": "एक बार भी नहीं",
+                "locale": "hi",
+                "template": "documented-authored-80f32963051d27b286ac"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "अवसादग्रस्त लक्षण: मध्यम तीव्रता (सकारात्मक स्क्रीनिंग: ≥ 10)",
+            "locale": "hi",
+            "template": "documented-authored-a1610e628c10b5897a96"
+          },
+          "note": {
+            "text": "स्क्रीनिंग उपकरण: निदान नहीं करता। नैदानिक साक्षात्कार (DSM-5 मानदंड) से पुष्टि करें।",
+            "locale": "hi",
+            "template": "documented-authored-515f33316f4d6d5e74bc"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Todos “quase todos os dias” exceto item 9 “nenhuma vez”: 24 (grave)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "आइटम 9 (मृत्यु के विचार या स्वयं को चोट पहुँचाने के विचार)",
+                "locale": "hi",
+                "template": "documented-authored-360ca302d8ab8bd076f9"
+              },
+              "value": {
+                "text": "एक बार भी नहीं",
+                "locale": "hi",
+                "template": "documented-authored-80f32963051d27b286ac"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "अवसादग्रस्त लक्षण: गंभीर तीव्रता (सकारात्मक स्क्रीनिंग: ≥ 10)",
+            "locale": "hi",
+            "template": "documented-authored-4d69662ad1265c033e8d"
+          },
+          "note": {
+            "text": "स्क्रीनिंग उपकरण: निदान नहीं करता। नैदानिक साक्षात्कार (DSM-5 मानदंड) से पुष्टि करें।",
+            "locale": "hi",
+            "template": "documented-authored-515f33316f4d6d5e74bc"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Total 4, mas item 9 em vários dias: alerta de risco mesmo com soma baixa",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "आइटम 9 (मृत्यु के विचार या स्वयं को चोट पहुँचाने के विचार)",
+                "locale": "hi",
+                "template": "documented-authored-360ca302d8ab8bd076f9"
+              },
+              "value": {
+                "text": "कई दिन",
+                "locale": "hi",
+                "template": "documented-authored-19be7664401059288425"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "अवसादग्रस्त लक्षण: न्यूनतम तीव्रता। आइटम 9 सकारात्मक: अभी आत्महत्या के जोखिम का आकलन करें",
+            "locale": "hi",
+            "template": "documented-authored-0505cea676ded4394bf7"
+          },
+          "note": {
+            "text": "मृत्यु के विचार या स्वयं को चोट पहुँचाने के विचार: विचार, योजना और साधनों के बारे में सीधे पूछें, और यदि जोखिम निकट हो तो व्यक्ति को अकेला न छोड़ें। 24 घंटे निःशुल्क भावनात्मक सहायता: CVV 188 (या cvv.org.br)। तत्काल जोखिम: SAMU 192 या आपातकालीन कक्ष।",
+            "locale": "hi",
+            "template": "documented-authored-fcc2a606c57cc0e0f88b"
+          },
+          "level": "high"
+        }
+      }
+    ]
+  }
+}

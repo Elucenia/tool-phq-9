@@ -138,3 +138,62 @@ Résultat de la formule ou de la classification. L’interprétation, la conduit
 Apache-2.0 s’applique uniquement au code d’ELUCENIA. Les droits sur les instruments, publications, traductions et données restent ceux de leurs titulaires respectifs. Conservez LICENSE et NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Résultats documentés
+
+Les informations ci-dessous conservent les sorties de la méthode pour des exemples synthétiques. Elles ne constituent pas une validation clinique indépendante.
+
+### 1
+
+Symptômes dépressifs : intensité minimale
+
+| Détails du résultat | |
+| --- | --- |
+| Item 9 (pensées de mort ou de se faire du mal) | Jamais |
+
+Instrument de dépistage : ne permet pas d’établir un diagnostic. Confirmer par un entretien clinique (critères du DSM-5).
+
+
+### 2
+
+Symptômes dépressifs : intensité légère
+
+| Détails du résultat | |
+| --- | --- |
+| Item 9 (pensées de mort ou de se faire du mal) | Jamais |
+
+Instrument de dépistage : ne permet pas d’établir un diagnostic. Confirmer par un entretien clinique (critères du DSM-5).
+
+
+### 3
+
+Symptômes dépressifs : intensité modérée (dépistage positif : ≥ 10)
+
+| Détails du résultat | |
+| --- | --- |
+| Item 9 (pensées de mort ou de se faire du mal) | Jamais |
+
+Instrument de dépistage : ne permet pas d’établir un diagnostic. Confirmer par un entretien clinique (critères du DSM-5).
+
+
+### 4
+
+Symptômes dépressifs : intensité sévère (dépistage positif : ≥ 10)
+
+| Détails du résultat | |
+| --- | --- |
+| Item 9 (pensées de mort ou de se faire du mal) | Jamais |
+
+Instrument de dépistage : ne permet pas d’établir un diagnostic. Confirmer par un entretien clinique (critères du DSM-5).
+
+
+### 5
+
+Symptômes dépressifs : intensité minimale. Item 9 positif : évaluer maintenant le risque de suicide
+
+| Détails du résultat | |
+| --- | --- |
+| Item 9 (pensées de mort ou de se faire du mal) | Plusieurs jours |
+
+Pensées de mort ou de se faire du mal : demandez directement s’il existe des idées, un plan et des moyens, et ne laissez pas la personne seule si le risque est imminent. Soutien émotionnel gratuit 24 h : CVV 188 (ou cvv.org.br). Risque immédiat : SAMU 192 ou service des urgences.
+

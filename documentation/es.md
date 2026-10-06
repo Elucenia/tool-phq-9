@@ -138,3 +138,62 @@ Resultado de la fórmula o clasificación. La interpretación, la conducta y la 
 Apache-2.0 se aplica únicamente al código de ELUCENIA. Los derechos de los instrumentos, publicaciones, traducciones y datos permanecen en manos de sus respectivos titulares. Conserve LICENSE y NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Resultados documentados
+
+La información siguiente conserva las salidas del método para ejemplos sintéticos. No constituye una validación clínica independiente.
+
+### 1
+
+Síntomas depresivos: intensidad mínima
+
+| Detalles del resultado | |
+| --- | --- |
+| Ítem 9 (pensamientos de muerte o de hacerse daño) | Nunca |
+
+Instrumento de cribado: no establece un diagnóstico. Confirme con entrevista clínica (criterios DSM-5).
+
+
+### 2
+
+Síntomas depresivos: intensidad leve
+
+| Detalles del resultado | |
+| --- | --- |
+| Ítem 9 (pensamientos de muerte o de hacerse daño) | Nunca |
+
+Instrumento de cribado: no establece un diagnóstico. Confirme con entrevista clínica (criterios DSM-5).
+
+
+### 3
+
+Síntomas depresivos: intensidad moderada (cribado positivo: ≥ 10)
+
+| Detalles del resultado | |
+| --- | --- |
+| Ítem 9 (pensamientos de muerte o de hacerse daño) | Nunca |
+
+Instrumento de cribado: no establece un diagnóstico. Confirme con entrevista clínica (criterios DSM-5).
+
+
+### 4
+
+Síntomas depresivos: intensidad grave (cribado positivo: ≥ 10)
+
+| Detalles del resultado | |
+| --- | --- |
+| Ítem 9 (pensamientos de muerte o de hacerse daño) | Nunca |
+
+Instrumento de cribado: no establece un diagnóstico. Confirme con entrevista clínica (criterios DSM-5).
+
+
+### 5
+
+Síntomas depresivos: intensidad mínima. Ítem 9 positivo: evaluar ahora el riesgo de suicidio
+
+| Detalles del resultado | |
+| --- | --- |
+| Ítem 9 (pensamientos de muerte o de hacerse daño) | Varios días |
+
+Pensamientos de muerte o de hacerse daño: pregunte directamente sobre ideación, plan y medios, y no deje sola a la persona si el riesgo es inminente. Apoyo emocional gratuito 24 h: CVV 188 (o cvv.org.br). Riesgo inmediato: SAMU 192 o urgencias.
+

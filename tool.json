@@ -365,7 +365,7 @@
       "publicCandidateBankOmitted": true
     },
     "methodVersion": "PHQ 9/Kroenke 2001:9 itens 0–3, total 0–27; cutofforiginal 10 vs PTSantos 2013≥9; item 9 alarme",
-    "implementationVersion": "phq-9@native-2026-10-03+64c134e5493b",
+    "implementationVersion": "phq-9@native-2026-10-05+32327993073d",
     "currentMethodSource": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1495268/",
     "versionEvidence": {
       "status": "variant-and-source-edition-recorded",
@@ -549,7 +549,35 @@
       "clinicalApproval": "not-performed",
       "translationApproval": "not-performed",
       "releaseApproval": "not-performed",
-      "implementationHash": "64c134e5493b9a1e48d3b025078e9bb44890684a3031e3f06f239b64d4fba9d9"
+      "implementationHash": "32327993073dbe1c00ab3fc6817f0efc029e3e71bf557b68179a7765957d3cf6",
+      "documentedOutputContract": {
+        "fields": [
+          "level",
+          "verdict",
+          "rows",
+          "note"
+        ],
+        "scope": "Optional documented outputs already produced by the existing scientific method; no new classification or treatment decision.",
+        "sourceExposureReceipt": {
+          "file": "reports/review-20261005-completion/native-result-presentation-r1/applied-output-r1/receipt.json",
+          "sha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        },
+        "scientificBodiesUnchanged": true,
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed"
+      },
+      "technicalBindingHistory": [
+        {
+          "recordedAt": "2026-10-05T23:55:42.176Z",
+          "scope": "Expose existing documented result fields; scientific body and complete input contract unchanged.",
+          "previousImplementationVersion": "phq-9@native-2026-10-03+64c134e5493b",
+          "previousImplementationHash": "64c134e5493b9a1e48d3b025078e9bb44890684a3031e3f06f239b64d4fba9d9",
+          "implementationHash": "32327993073dbe1c00ab3fc6817f0efc029e3e71bf557b68179a7765957d3cf6",
+          "scientificBodySha256": "063cefc8782556255cf1df57d21fed353f060051555528af84a958548c83a1d3",
+          "metadataContractHash": "18fb8b19d71641e8443f14f6f359774ef66aee7049b5277299bfc25b3d2ed86f",
+          "exposureReceiptSha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        }
+      ]
     },
     "limits": "Rastreamento e intensidade de sintomas nas últimas duas semanas; não substitui entrevista diagnóstica. Distinga o corte original ≥10 do corte ≥9 estudado na população adulta de Pelotas. Os valores de sensibilidade e especificidade publicados não validam automaticamente outras populações ou traduções.",
     "sourceLimitEvidence": {
@@ -569,15 +597,15 @@
   },
   "currentSource": {
     "file": "apps/website/private/tool-code/phq-9/calculator.js",
-    "bytes": 7034,
-    "sha256": "64c134e5493b9a1e48d3b025078e9bb44890684a3031e3f06f239b64d4fba9d9"
+    "bytes": 7239,
+    "sha256": "32327993073dbe1c00ab3fc6817f0efc029e3e71bf557b68179a7765957d3cf6"
   },
-  "sourceToolSha256": "0d64a0c372a9109656af5ae0b97c73d391389de0ff31c36770fed764ba0a934a",
+  "sourceToolSha256": "6339604ac138fe6d6ce44d380cf9b7ea5206380842a82f3a01d2485b7d956f01",
   "omittedFullReferenceBanks": [
     {
       "rows": 56,
       "sha256": "9d6d80ab4fdaa717e535e68e0c0978ecedcece3071b1fd0033c7a355972cc4ce",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     }
   ],
   "clinicalApproval": "not-performed",
